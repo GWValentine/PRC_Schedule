@@ -12,12 +12,10 @@ import json
 import requests
 import pandas as pd
 from datetime import datetime, timedelta, timezone
-from dotenv import load_dotenv
 
 # JSON Data Path
-load_dotenv()
 DATA_DIR = "./src/data"
-API_KEY = os.getenv('API_KEY')
+API_KEY = st.secrets["API_KEY"]
 BASE_URL = f"https://api.flightapi.io/schedule/{API_KEY}?mode=departures&iata=PRC&day="
 
 # Verify data directory exists
