@@ -1,0 +1,3335 @@
+{
+    "airport": {
+        "pluginData": {
+            "details": {
+                "name": "Prescott Municipal Airport",
+                "code": {
+                    "iata": "PRC",
+                    "icao": "KPRC"
+                },
+                "delayIndex": {
+                    "arrivals": null,
+                    "departures": null
+                },
+                "stats": null,
+                "position": {
+                    "latitude": 34.654469,
+                    "longitude": -112.418999,
+                    "elevation": 5044,
+                    "country": {
+                        "name": "United States",
+                        "code": "US",
+                        "id": 236
+                    },
+                    "region": {
+                        "city": "Prescott"
+                    }
+                },
+                "timezone": {
+                    "name": "America/Phoenix",
+                    "offset": -25200,
+                    "abbr": "MST",
+                    "abbrName": "Mountain Standard Time",
+                    "isDst": false
+                },
+                "url": {
+                    "homepage": null,
+                    "webcam": "http://airportwebcams.net/prescott-municipal-airport-webcam/",
+                    "wikipedia": null
+                },
+                "airportImages": {
+                    "thumbnails": [
+                        {
+                            "src": "https://cdn.jetphotos.com/200/5/43642_1522700107_tb.jpg",
+                            "link": "https://www.jetphotos.com/photo/8913087",
+                            "copyright": "Matthew Dwight",
+                            "source": "Jetphotos.com"
+                        }
+                    ],
+                    "medium": [
+                        {
+                            "src": "https://cdn.jetphotos.com/400/5/43642_1522700107.jpg",
+                            "link": "https://www.jetphotos.com/photo/8913087",
+                            "copyright": "Matthew Dwight",
+                            "source": "Jetphotos.com"
+                        }
+                    ],
+                    "large": [
+                        {
+                            "src": "https://cdn.jetphotos.com/640cb/5/43642_1522700107.jpg",
+                            "link": "https://www.jetphotos.com/photo/8913087",
+                            "copyright": "Matthew Dwight",
+                            "source": "Jetphotos.com"
+                        }
+                    ]
+                },
+                "visible": true
+            },
+            "flightdiary": {
+                "url": "/data/airports/prc/reviews",
+                "ratings": {
+                    "avg": 4.42,
+                    "total": 10
+                },
+                "comment": [
+                    {
+                        "content": "Prescott Regional Airport is your typical regional airport. It is tiny with only 2 gates, normally they only use 1 gate at a time, mainly Gate 2. There are no shops and you can literally have the whole terminal (even outside check-in area) explored within 5 minutes or less.",
+                        "author": {
+                            "facebookId": null,
+                            "name": "BigBert10"
+                        },
+                        "timestamp": 1634340621
+                    }
+                ],
+                "reviews": 1,
+                "evaluation": 88
+            },
+            "schedule": {
+                "departures": {
+                    "item": {
+                        "current": 18,
+                        "total": 18,
+                        "limit": 100
+                    },
+                    "page": {
+                        "current": 1,
+                        "total": 1
+                    },
+                    "timestamp": 1744699920,
+                    "data": [
+                        {
+                            "flight": {
+                                "identification": {
+                                    "id": "39e5f1e0",
+                                    "row": 5648693625,
+                                    "number": {
+                                        "default": "A82869",
+                                        "alternative": null
+                                    },
+                                    "callsign": "AMF2869",
+                                    "codeshare": null
+                                },
+                                "status": {
+                                    "live": false,
+                                    "text": "Departed 18:22",
+                                    "icon": "green",
+                                    "estimated": null,
+                                    "ambiguous": false,
+                                    "generic": {
+                                        "status": {
+                                            "text": "departed",
+                                            "type": "departure",
+                                            "color": "green",
+                                            "diverted": null
+                                        },
+                                        "eventTime": {
+                                            "utc": 1744680122,
+                                            "local": 1744654922
+                                        }
+                                    }
+                                },
+                                "aircraft": {
+                                    "model": {
+                                        "code": "SW4",
+                                        "text": "Swearingen Metroliner"
+                                    },
+                                    "registration": "N672AV",
+                                    "country": {
+                                        "id": 236,
+                                        "name": "United States",
+                                        "alpha2": "US",
+                                        "alpha3": "USA"
+                                    },
+                                    "hex": "A8E33A",
+                                    "restricted": false,
+                                    "serialNo": null,
+                                    "age": {
+                                        "availability": false
+                                    },
+                                    "availability": {
+                                        "serialNo": true,
+                                        "age": false
+                                    }
+                                },
+                                "owner": {
+                                    "name": "Ameriflight",
+                                    "code": {
+                                        "iata": "A8",
+                                        "icao": "AMF"
+                                    },
+                                    "logo": "https://cdn.flightradar24.com/assets/airlines/logotypes/954.png"
+                                },
+                                "airline": {
+                                    "name": "Ameriflight",
+                                    "code": {
+                                        "iata": "A8",
+                                        "icao": "AMF"
+                                    },
+                                    "short": "Ameriflight"
+                                },
+                                "airport": {
+                                    "origin": {
+                                        "timezone": {
+                                            "name": "America/Phoenix",
+                                            "offset": -25200,
+                                            "abbr": "MST",
+                                            "abbrName": "Mountain Standard Time",
+                                            "isDst": false
+                                        },
+                                        "info": {
+                                            "terminal": null,
+                                            "baggage": null,
+                                            "gate": null
+                                        }
+                                    },
+                                    "destination": {
+                                        "code": {
+                                            "iata": "PHX",
+                                            "icao": "KPHX"
+                                        },
+                                        "timezone": {
+                                            "name": "America/Phoenix",
+                                            "offset": -25200,
+                                            "abbr": "MST",
+                                            "abbrName": "Mountain Standard Time",
+                                            "isDst": false
+                                        },
+                                        "info": {
+                                            "terminal": null,
+                                            "baggage": null,
+                                            "gate": null
+                                        },
+                                        "name": "Phoenix Sky Harbor International Airport",
+                                        "position": {
+                                            "latitude": 33.434269,
+                                            "longitude": -112.011002,
+                                            "country": {
+                                                "name": "United States",
+                                                "code": "US",
+                                                "id": 236
+                                            },
+                                            "region": {
+                                                "city": "Phoenix"
+                                            }
+                                        },
+                                        "visible": true
+                                    },
+                                    "real": null
+                                },
+                                "time": {
+                                    "scheduled": {
+                                        "departure": 1744679400,
+                                        "arrival": 1744683000
+                                    },
+                                    "real": {
+                                        "departure": 1744680122,
+                                        "arrival": 1744682084
+                                    },
+                                    "estimated": {
+                                        "departure": null,
+                                        "arrival": null
+                                    },
+                                    "other": {
+                                        "eta": 1744682084,
+                                        "duration": null
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "flight": {
+                                "identification": {
+                                    "id": "39e58068",
+                                    "row": 5649167251,
+                                    "number": {
+                                        "default": "ERU75",
+                                        "alternative": null
+                                    },
+                                    "callsign": "ERU75",
+                                    "codeshare": null
+                                },
+                                "status": {
+                                    "live": false,
+                                    "text": "Departed 17:26",
+                                    "icon": "green",
+                                    "estimated": null,
+                                    "ambiguous": false,
+                                    "generic": {
+                                        "status": {
+                                            "text": "departed",
+                                            "type": "departure",
+                                            "color": "green",
+                                            "diverted": null
+                                        },
+                                        "eventTime": {
+                                            "utc": 1744676777,
+                                            "local": 1744651577
+                                        }
+                                    }
+                                },
+                                "aircraft": {
+                                    "model": {
+                                        "code": "C172",
+                                        "text": "Cessna 172S Skyhawk SP"
+                                    },
+                                    "registration": "N675ER",
+                                    "country": {
+                                        "id": 236,
+                                        "name": "United States",
+                                        "alpha2": "US",
+                                        "alpha3": "USA"
+                                    },
+                                    "hex": "A8EEBF",
+                                    "restricted": false,
+                                    "serialNo": null,
+                                    "age": {
+                                        "availability": true
+                                    },
+                                    "availability": {
+                                        "serialNo": true,
+                                        "age": true
+                                    }
+                                },
+                                "owner": {
+                                    "name": "Embry-Riddle Aeronautical University",
+                                    "code": {
+                                        "iata": null,
+                                        "icao": "ERU"
+                                    },
+                                    "logo": null
+                                },
+                                "airline": {
+                                    "name": "Embry-Riddle Aeronautical University",
+                                    "code": {
+                                        "iata": null,
+                                        "icao": "ERU"
+                                    },
+                                    "short": "Embry-Riddle Aeronautical University"
+                                },
+                                "airport": {
+                                    "origin": {
+                                        "timezone": {
+                                            "name": "America/Phoenix",
+                                            "offset": -25200,
+                                            "abbr": "MST",
+                                            "abbrName": "Mountain Standard Time",
+                                            "isDst": false
+                                        },
+                                        "info": {
+                                            "terminal": null,
+                                            "baggage": null,
+                                            "gate": null
+                                        }
+                                    },
+                                    "destination": {
+                                        "code": {
+                                            "iata": "DVT",
+                                            "icao": "KDVT"
+                                        },
+                                        "timezone": {
+                                            "name": "America/Phoenix",
+                                            "offset": -25200,
+                                            "abbr": "MST",
+                                            "abbrName": "Mountain Standard Time",
+                                            "isDst": false
+                                        },
+                                        "info": {
+                                            "terminal": null,
+                                            "baggage": null,
+                                            "gate": null
+                                        },
+                                        "name": "Phoenix Deer Valley Airport",
+                                        "position": {
+                                            "latitude": 33.688332,
+                                            "longitude": -112.082497,
+                                            "country": {
+                                                "name": "United States",
+                                                "code": "US",
+                                                "id": 236
+                                            },
+                                            "region": {
+                                                "city": "Phoenix"
+                                            }
+                                        },
+                                        "visible": true
+                                    },
+                                    "real": null
+                                },
+                                "time": {
+                                    "scheduled": {
+                                        "departure": 1744677000,
+                                        "arrival": 1744679760
+                                    },
+                                    "real": {
+                                        "departure": 1744676777,
+                                        "arrival": 1744679841
+                                    },
+                                    "estimated": {
+                                        "departure": null,
+                                        "arrival": null
+                                    },
+                                    "other": {
+                                        "eta": 1744679841,
+                                        "duration": null
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "flight": {
+                                "identification": {
+                                    "id": "39e5f512",
+                                    "row": 5645502632,
+                                    "number": {
+                                        "default": "UA5066",
+                                        "alternative": "OO5066"
+                                    },
+                                    "callsign": "SKW5066",
+                                    "codeshare": null
+                                },
+                                "status": {
+                                    "live": false,
+                                    "text": "Departed 18:03",
+                                    "icon": "red",
+                                    "estimated": null,
+                                    "ambiguous": false,
+                                    "generic": {
+                                        "status": {
+                                            "text": "departed",
+                                            "type": "departure",
+                                            "color": "red",
+                                            "diverted": null
+                                        },
+                                        "eventTime": {
+                                            "utc": 1744678993,
+                                            "local": 1744653793
+                                        }
+                                    }
+                                },
+                                "aircraft": {
+                                    "model": {
+                                        "code": "CRJ2",
+                                        "text": "Mitsubishi CRJ-200LR"
+                                    },
+                                    "registration": "N986SW",
+                                    "country": {
+                                        "id": 236,
+                                        "name": "United States",
+                                        "alpha2": "US",
+                                        "alpha3": "USA"
+                                    },
+                                    "hex": "ADC313",
+                                    "restricted": false,
+                                    "serialNo": null,
+                                    "age": {
+                                        "availability": true
+                                    },
+                                    "availability": {
+                                        "serialNo": true,
+                                        "age": true
+                                    }
+                                },
+                                "owner": {
+                                    "name": "SkyWest Airlines",
+                                    "code": {
+                                        "iata": "OO",
+                                        "icao": "SKW"
+                                    },
+                                    "logo": "https://cdn.flightradar24.com/assets/airlines/logotypes/344.png"
+                                },
+                                "airline": {
+                                    "name": "United Express",
+                                    "code": {
+                                        "iata": "UA",
+                                        "icao": "UAL"
+                                    },
+                                    "short": "United Airlines"
+                                },
+                                "airport": {
+                                    "origin": {
+                                        "timezone": {
+                                            "name": "America/Phoenix",
+                                            "offset": -25200,
+                                            "abbr": "MST",
+                                            "abbrName": "Mountain Standard Time",
+                                            "isDst": false
+                                        },
+                                        "info": {
+                                            "terminal": null,
+                                            "baggage": null,
+                                            "gate": "2"
+                                        }
+                                    },
+                                    "destination": {
+                                        "code": {
+                                            "iata": "LAX",
+                                            "icao": "KLAX"
+                                        },
+                                        "timezone": {
+                                            "name": "America/Los_Angeles",
+                                            "offset": -25200,
+                                            "abbr": "PDT",
+                                            "abbrName": "Pacific Daylight Time",
+                                            "isDst": true
+                                        },
+                                        "info": {
+                                            "terminal": "8",
+                                            "baggage": "4",
+                                            "gate": "84"
+                                        },
+                                        "name": "Los Angeles International Airport",
+                                        "position": {
+                                            "latitude": 33.94252,
+                                            "longitude": -118.406998,
+                                            "country": {
+                                                "name": "United States",
+                                                "code": "US",
+                                                "id": 236
+                                            },
+                                            "region": {
+                                                "city": "Los Angeles"
+                                            }
+                                        },
+                                        "visible": true
+                                    },
+                                    "real": null
+                                },
+                                "time": {
+                                    "scheduled": {
+                                        "departure": 1744676100,
+                                        "arrival": 1744681560
+                                    },
+                                    "real": {
+                                        "departure": 1744678993,
+                                        "arrival": 1744682633
+                                    },
+                                    "estimated": {
+                                        "departure": null,
+                                        "arrival": null
+                                    },
+                                    "other": {
+                                        "eta": 1744682633,
+                                        "duration": null
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "flight": {
+                                "identification": {
+                                    "id": null,
+                                    "row": 5649095204,
+                                    "number": {
+                                        "default": "VAR515",
+                                        "alternative": null
+                                    },
+                                    "callsign": "VAR515",
+                                    "codeshare": null
+                                },
+                                "status": {
+                                    "live": false,
+                                    "text": "Estimated dep 16:59*",
+                                    "icon": "green",
+                                    "estimated": null,
+                                    "ambiguous": true,
+                                    "generic": {
+                                        "status": {
+                                            "text": "estimated",
+                                            "type": "departure",
+                                            "color": "green",
+                                            "diverted": null
+                                        },
+                                        "eventTime": {
+                                            "utc": 1744675140,
+                                            "local": 1744649940
+                                        }
+                                    }
+                                },
+                                "aircraft": {
+                                    "model": {
+                                        "code": "SR20",
+                                        "text": "Cirrus SR20"
+                                    },
+                                    "registration": "N515AV",
+                                    "country": {
+                                        "id": 236,
+                                        "name": "United States",
+                                        "alpha2": "US",
+                                        "alpha3": "USA"
+                                    },
+                                    "hex": "A67416",
+                                    "restricted": false,
+                                    "serialNo": null,
+                                    "age": {
+                                        "availability": true
+                                    },
+                                    "availability": {
+                                        "serialNo": true,
+                                        "age": true
+                                    }
+                                },
+                                "owner": {
+                                    "name": "United Aviate Academy",
+                                    "code": {
+                                        "iata": null,
+                                        "icao": "VAR"
+                                    },
+                                    "logo": null
+                                },
+                                "airline": {
+                                    "name": "United Aviate Academy",
+                                    "code": {
+                                        "iata": null,
+                                        "icao": "VAR"
+                                    },
+                                    "short": "United Aviate Academy"
+                                },
+                                "airport": {
+                                    "origin": {
+                                        "timezone": {
+                                            "name": "America/Phoenix",
+                                            "offset": -25200,
+                                            "abbr": "MST",
+                                            "abbrName": "Mountain Standard Time",
+                                            "isDst": false
+                                        },
+                                        "info": {
+                                            "terminal": null,
+                                            "baggage": null,
+                                            "gate": null
+                                        }
+                                    },
+                                    "destination": {
+                                        "code": {
+                                            "iata": "GYR",
+                                            "icao": "KGYR"
+                                        },
+                                        "timezone": {
+                                            "name": "America/Phoenix",
+                                            "offset": -25200,
+                                            "abbr": "MST",
+                                            "abbrName": "Mountain Standard Time",
+                                            "isDst": false
+                                        },
+                                        "info": {
+                                            "terminal": null,
+                                            "baggage": null,
+                                            "gate": null
+                                        },
+                                        "name": "Phoenix Goodyear Airport",
+                                        "position": {
+                                            "latitude": 33.42469,
+                                            "longitude": -112.373993,
+                                            "country": {
+                                                "name": "United States",
+                                                "code": "US",
+                                                "id": 236
+                                            },
+                                            "region": {
+                                                "city": "Phoenix"
+                                            }
+                                        },
+                                        "visible": true
+                                    },
+                                    "real": null
+                                },
+                                "time": {
+                                    "scheduled": {
+                                        "departure": 1744675200,
+                                        "arrival": 1744679460
+                                    },
+                                    "real": {
+                                        "departure": null,
+                                        "arrival": null
+                                    },
+                                    "estimated": {
+                                        "departure": 1744675140,
+                                        "arrival": null
+                                    },
+                                    "other": {
+                                        "eta": null,
+                                        "duration": null
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "flight": {
+                                "identification": {
+                                    "id": "39e455c1",
+                                    "row": 5645502762,
+                                    "number": {
+                                        "default": "UA5127",
+                                        "alternative": "OO5127"
+                                    },
+                                    "callsign": "SKW5127",
+                                    "codeshare": null
+                                },
+                                "status": {
+                                    "live": false,
+                                    "text": "Departed 08:49",
+                                    "icon": "green",
+                                    "estimated": null,
+                                    "ambiguous": false,
+                                    "generic": {
+                                        "status": {
+                                            "text": "departed",
+                                            "type": "departure",
+                                            "color": "green",
+                                            "diverted": null
+                                        },
+                                        "eventTime": {
+                                            "utc": 1744645775,
+                                            "local": 1744620575
+                                        }
+                                    }
+                                },
+                                "aircraft": {
+                                    "model": {
+                                        "code": "CRJ2",
+                                        "text": "Mitsubishi CRJ-200LR"
+                                    },
+                                    "registration": "N908EV",
+                                    "country": {
+                                        "id": 236,
+                                        "name": "United States",
+                                        "alpha2": "US",
+                                        "alpha3": "USA"
+                                    },
+                                    "hex": "AC8D5C",
+                                    "restricted": false,
+                                    "serialNo": null,
+                                    "age": {
+                                        "availability": true
+                                    },
+                                    "availability": {
+                                        "serialNo": true,
+                                        "age": true
+                                    }
+                                },
+                                "owner": {
+                                    "name": "SkyWest Airlines",
+                                    "code": {
+                                        "iata": "OO",
+                                        "icao": "SKW"
+                                    },
+                                    "logo": "https://cdn.flightradar24.com/assets/airlines/logotypes/344.png"
+                                },
+                                "airline": {
+                                    "name": "SkyWest Airlines",
+                                    "code": {
+                                        "iata": "OO",
+                                        "icao": "SKW"
+                                    },
+                                    "short": "SkyWest Airlines"
+                                },
+                                "airport": {
+                                    "origin": {
+                                        "timezone": {
+                                            "name": "America/Phoenix",
+                                            "offset": -25200,
+                                            "abbr": "MST",
+                                            "abbrName": "Mountain Standard Time",
+                                            "isDst": false
+                                        },
+                                        "info": {
+                                            "terminal": null,
+                                            "baggage": null,
+                                            "gate": null
+                                        }
+                                    },
+                                    "destination": {
+                                        "code": {
+                                            "iata": "DEN",
+                                            "icao": "KDEN"
+                                        },
+                                        "timezone": {
+                                            "name": "America/Denver",
+                                            "offset": -21600,
+                                            "abbr": "MDT",
+                                            "abbrName": "Mountain Daylight Time",
+                                            "isDst": true
+                                        },
+                                        "info": {
+                                            "terminal": null,
+                                            "baggage": "18",
+                                            "gate": "B61"
+                                        },
+                                        "name": "Denver International Airport",
+                                        "position": {
+                                            "latitude": 39.858784,
+                                            "longitude": -104.673882,
+                                            "country": {
+                                                "name": "United States",
+                                                "code": "US",
+                                                "id": 236
+                                            },
+                                            "region": {
+                                                "city": "Denver"
+                                            }
+                                        },
+                                        "visible": true
+                                    },
+                                    "real": null
+                                },
+                                "time": {
+                                    "scheduled": {
+                                        "departure": 1744645200,
+                                        "arrival": 1744652160
+                                    },
+                                    "real": {
+                                        "departure": 1744645775,
+                                        "arrival": 1744650281
+                                    },
+                                    "estimated": {
+                                        "departure": null,
+                                        "arrival": null
+                                    },
+                                    "other": {
+                                        "eta": 1744650281,
+                                        "duration": null
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "flight": {
+                                "identification": {
+                                    "id": "39e45a68",
+                                    "row": 5648985673,
+                                    "number": {
+                                        "default": null,
+                                        "alternative": null
+                                    },
+                                    "callsign": "N734KF",
+                                    "codeshare": null
+                                },
+                                "status": {
+                                    "live": false,
+                                    "text": "Departed 08:40",
+                                    "icon": "yellow",
+                                    "estimated": null,
+                                    "ambiguous": false,
+                                    "generic": {
+                                        "status": {
+                                            "text": "departed",
+                                            "type": "departure",
+                                            "color": "yellow",
+                                            "diverted": null
+                                        },
+                                        "eventTime": {
+                                            "utc": 1744645221,
+                                            "local": 1744620021
+                                        }
+                                    }
+                                },
+                                "aircraft": {
+                                    "model": {
+                                        "code": "C172",
+                                        "text": "Cessna 172N Skyhawk"
+                                    },
+                                    "registration": "N734KF",
+                                    "country": {
+                                        "id": 236,
+                                        "name": "United States",
+                                        "alpha2": "US",
+                                        "alpha3": "USA"
+                                    },
+                                    "hex": "A9DACE",
+                                    "restricted": false,
+                                    "serialNo": null,
+                                    "age": {
+                                        "availability": true
+                                    },
+                                    "availability": {
+                                        "serialNo": true,
+                                        "age": true
+                                    }
+                                },
+                                "owner": null,
+                                "airline": null,
+                                "airport": {
+                                    "origin": {
+                                        "timezone": {
+                                            "name": "America/Phoenix",
+                                            "offset": -25200,
+                                            "abbr": "MST",
+                                            "abbrName": "Mountain Standard Time",
+                                            "isDst": false
+                                        },
+                                        "info": {
+                                            "terminal": null,
+                                            "baggage": null,
+                                            "gate": null
+                                        }
+                                    },
+                                    "destination": {
+                                        "code": {
+                                            "iata": "IGM",
+                                            "icao": "KIGM"
+                                        },
+                                        "timezone": {
+                                            "name": "America/Phoenix",
+                                            "offset": -25200,
+                                            "abbr": "MST",
+                                            "abbrName": "Mountain Standard Time",
+                                            "isDst": false
+                                        },
+                                        "info": {
+                                            "terminal": null,
+                                            "baggage": null,
+                                            "gate": null
+                                        },
+                                        "name": "Kingman Airport",
+                                        "position": {
+                                            "latitude": 35.25,
+                                            "longitude": -113.93,
+                                            "country": {
+                                                "name": "United States",
+                                                "code": "US",
+                                                "id": 236
+                                            },
+                                            "region": {
+                                                "city": "Kingman"
+                                            }
+                                        },
+                                        "visible": true
+                                    },
+                                    "real": null
+                                },
+                                "time": {
+                                    "scheduled": {
+                                        "departure": 1744642800,
+                                        "arrival": 1744647119
+                                    },
+                                    "real": {
+                                        "departure": 1744645221,
+                                        "arrival": 1744649681
+                                    },
+                                    "estimated": {
+                                        "departure": null,
+                                        "arrival": null
+                                    },
+                                    "other": {
+                                        "eta": 1744649681,
+                                        "duration": null
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "flight": {
+                                "identification": {
+                                    "id": "39e28dc1",
+                                    "row": 5648800025,
+                                    "number": {
+                                        "default": null,
+                                        "alternative": null
+                                    },
+                                    "callsign": "N929ST",
+                                    "codeshare": null
+                                },
+                                "status": {
+                                    "live": false,
+                                    "text": "Departed 20:51",
+                                    "icon": "yellow",
+                                    "estimated": null,
+                                    "ambiguous": false,
+                                    "generic": {
+                                        "status": {
+                                            "text": "departed",
+                                            "type": "departure",
+                                            "color": "yellow",
+                                            "diverted": null
+                                        },
+                                        "eventTime": {
+                                            "utc": 1744602677,
+                                            "local": 1744577477
+                                        }
+                                    }
+                                },
+                                "aircraft": {
+                                    "model": {
+                                        "code": "C510",
+                                        "text": "Cessna Citation Mustang"
+                                    },
+                                    "registration": "N929ST",
+                                    "country": {
+                                        "id": 236,
+                                        "name": "United States",
+                                        "alpha2": "US",
+                                        "alpha3": "USA"
+                                    },
+                                    "hex": "ACE13B",
+                                    "restricted": false,
+                                    "serialNo": null,
+                                    "age": {
+                                        "availability": true
+                                    },
+                                    "availability": {
+                                        "serialNo": true,
+                                        "age": true
+                                    }
+                                },
+                                "owner": null,
+                                "airline": null,
+                                "airport": {
+                                    "origin": {
+                                        "timezone": {
+                                            "name": "America/Phoenix",
+                                            "offset": -25200,
+                                            "abbr": "MST",
+                                            "abbrName": "Mountain Standard Time",
+                                            "isDst": false
+                                        },
+                                        "info": {
+                                            "terminal": null,
+                                            "baggage": null,
+                                            "gate": null
+                                        }
+                                    },
+                                    "destination": {
+                                        "code": {
+                                            "iata": "SEE",
+                                            "icao": "KSEE"
+                                        },
+                                        "timezone": {
+                                            "name": "America/Los_Angeles",
+                                            "offset": -25200,
+                                            "abbr": "PDT",
+                                            "abbrName": "Pacific Daylight Time",
+                                            "isDst": true
+                                        },
+                                        "info": {
+                                            "terminal": null,
+                                            "baggage": null,
+                                            "gate": null
+                                        },
+                                        "name": "San Diego Gillespie Field Airport",
+                                        "position": {
+                                            "latitude": 32.826111,
+                                            "longitude": -116.972221,
+                                            "country": {
+                                                "name": "United States",
+                                                "code": "US",
+                                                "id": 236
+                                            },
+                                            "region": {
+                                                "city": "San Diego"
+                                            }
+                                        },
+                                        "visible": true
+                                    },
+                                    "real": null
+                                },
+                                "time": {
+                                    "scheduled": {
+                                        "departure": 1744601400,
+                                        "arrival": 1744605803
+                                    },
+                                    "real": {
+                                        "departure": 1744602677,
+                                        "arrival": 1744606587
+                                    },
+                                    "estimated": {
+                                        "departure": null,
+                                        "arrival": null
+                                    },
+                                    "other": {
+                                        "eta": 1744606587,
+                                        "duration": null
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "flight": {
+                                "identification": {
+                                    "id": "39e24378",
+                                    "row": 5648680329,
+                                    "number": {
+                                        "default": "ERU60",
+                                        "alternative": null
+                                    },
+                                    "callsign": "ERU60",
+                                    "codeshare": null
+                                },
+                                "status": {
+                                    "live": false,
+                                    "text": "Departed 18:39",
+                                    "icon": "yellow",
+                                    "estimated": null,
+                                    "ambiguous": false,
+                                    "generic": {
+                                        "status": {
+                                            "text": "departed",
+                                            "type": "departure",
+                                            "color": "yellow",
+                                            "diverted": null
+                                        },
+                                        "eventTime": {
+                                            "utc": 1744594743,
+                                            "local": 1744569543
+                                        }
+                                    }
+                                },
+                                "aircraft": {
+                                    "model": {
+                                        "code": "C172",
+                                        "text": "Cessna 172S Skyhawk SP"
+                                    },
+                                    "registration": "N660ER",
+                                    "country": {
+                                        "id": 236,
+                                        "name": "United States",
+                                        "alpha2": "US",
+                                        "alpha3": "USA"
+                                    },
+                                    "hex": "A8B4AD",
+                                    "restricted": false,
+                                    "serialNo": null,
+                                    "age": {
+                                        "availability": true
+                                    },
+                                    "availability": {
+                                        "serialNo": true,
+                                        "age": true
+                                    }
+                                },
+                                "owner": {
+                                    "name": "Embry-Riddle Aeronautical University",
+                                    "code": {
+                                        "iata": null,
+                                        "icao": "ERU"
+                                    },
+                                    "logo": null
+                                },
+                                "airline": {
+                                    "name": "Embry-Riddle Aeronautical University",
+                                    "code": {
+                                        "iata": null,
+                                        "icao": "ERU"
+                                    },
+                                    "short": "Embry-Riddle Aeronautical University"
+                                },
+                                "airport": {
+                                    "origin": {
+                                        "timezone": {
+                                            "name": "America/Phoenix",
+                                            "offset": -25200,
+                                            "abbr": "MST",
+                                            "abbrName": "Mountain Standard Time",
+                                            "isDst": false
+                                        },
+                                        "info": {
+                                            "terminal": null,
+                                            "baggage": null,
+                                            "gate": null
+                                        }
+                                    },
+                                    "destination": {
+                                        "code": {
+                                            "iata": "PRC",
+                                            "icao": "KPRC"
+                                        },
+                                        "timezone": {
+                                            "name": "America/Phoenix",
+                                            "offset": -25200,
+                                            "abbr": "MST",
+                                            "abbrName": "Mountain Standard Time",
+                                            "isDst": false
+                                        },
+                                        "info": {
+                                            "terminal": null,
+                                            "baggage": null,
+                                            "gate": null
+                                        },
+                                        "name": "Prescott Municipal Airport",
+                                        "position": {
+                                            "latitude": 34.654469,
+                                            "longitude": -112.418999,
+                                            "country": {
+                                                "name": "United States",
+                                                "code": "US",
+                                                "id": 236
+                                            },
+                                            "region": {
+                                                "city": "Prescott"
+                                            }
+                                        },
+                                        "visible": true
+                                    },
+                                    "real": {
+                                        "name": "Page Municipal Airport",
+                                        "code": {
+                                            "iata": "PGA",
+                                            "icao": "KPGA"
+                                        },
+                                        "position": {
+                                            "latitude": 36.926083,
+                                            "longitude": -111.448357,
+                                            "country": {
+                                                "name": "United States",
+                                                "code": "US",
+                                                "id": 236
+                                            },
+                                            "region": {
+                                                "city": "Page"
+                                            }
+                                        },
+                                        "timezone": {
+                                            "name": "America/Denver",
+                                            "offset": -21600,
+                                            "abbr": "MDT",
+                                            "abbrName": "Mountain Daylight Time",
+                                            "isDst": true
+                                        },
+                                        "visible": true
+                                    }
+                                },
+                                "time": {
+                                    "scheduled": {
+                                        "departure": 1744592506,
+                                        "arrival": 1744600800
+                                    },
+                                    "real": {
+                                        "departure": 1744594743,
+                                        "arrival": 1744601262
+                                    },
+                                    "estimated": {
+                                        "departure": null,
+                                        "arrival": null
+                                    },
+                                    "other": {
+                                        "eta": 1744601262,
+                                        "duration": null
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "flight": {
+                                "identification": {
+                                    "id": "39e211a2",
+                                    "row": 5648619471,
+                                    "number": {
+                                        "default": "ERU60",
+                                        "alternative": null
+                                    },
+                                    "callsign": "ERU60",
+                                    "codeshare": null
+                                },
+                                "status": {
+                                    "live": false,
+                                    "text": "Departed 16:30",
+                                    "icon": "green",
+                                    "estimated": null,
+                                    "ambiguous": false,
+                                    "generic": {
+                                        "status": {
+                                            "text": "departed",
+                                            "type": "departure",
+                                            "color": "green",
+                                            "diverted": null
+                                        },
+                                        "eventTime": {
+                                            "utc": 1744587006,
+                                            "local": 1744561806
+                                        }
+                                    }
+                                },
+                                "aircraft": {
+                                    "model": {
+                                        "code": "C172",
+                                        "text": "Cessna 172S Skyhawk SP"
+                                    },
+                                    "registration": "N660ER",
+                                    "country": {
+                                        "id": 236,
+                                        "name": "United States",
+                                        "alpha2": "US",
+                                        "alpha3": "USA"
+                                    },
+                                    "hex": "A8B4AD",
+                                    "restricted": false,
+                                    "serialNo": null,
+                                    "age": {
+                                        "availability": true
+                                    },
+                                    "availability": {
+                                        "serialNo": true,
+                                        "age": true
+                                    }
+                                },
+                                "owner": {
+                                    "name": "Embry-Riddle Aeronautical University",
+                                    "code": {
+                                        "iata": null,
+                                        "icao": "ERU"
+                                    },
+                                    "logo": null
+                                },
+                                "airline": {
+                                    "name": "Embry-Riddle Aeronautical University",
+                                    "code": {
+                                        "iata": null,
+                                        "icao": "ERU"
+                                    },
+                                    "short": "Embry-Riddle Aeronautical University"
+                                },
+                                "airport": {
+                                    "origin": {
+                                        "timezone": {
+                                            "name": "America/Phoenix",
+                                            "offset": -25200,
+                                            "abbr": "MST",
+                                            "abbrName": "Mountain Standard Time",
+                                            "isDst": false
+                                        },
+                                        "info": {
+                                            "terminal": null,
+                                            "baggage": null,
+                                            "gate": null
+                                        }
+                                    },
+                                    "destination": {
+                                        "code": {
+                                            "iata": "PRC",
+                                            "icao": "KPRC"
+                                        },
+                                        "timezone": {
+                                            "name": "America/Phoenix",
+                                            "offset": -25200,
+                                            "abbr": "MST",
+                                            "abbrName": "Mountain Standard Time",
+                                            "isDst": false
+                                        },
+                                        "info": {
+                                            "terminal": null,
+                                            "baggage": null,
+                                            "gate": null
+                                        },
+                                        "name": "Prescott Municipal Airport",
+                                        "position": {
+                                            "latitude": 34.654469,
+                                            "longitude": -112.418999,
+                                            "country": {
+                                                "name": "United States",
+                                                "code": "US",
+                                                "id": 236
+                                            },
+                                            "region": {
+                                                "city": "Prescott"
+                                            }
+                                        },
+                                        "visible": true
+                                    },
+                                    "real": null
+                                },
+                                "time": {
+                                    "scheduled": {
+                                        "departure": 1744592400,
+                                        "arrival": 1744598523
+                                    },
+                                    "real": {
+                                        "departure": 1744587006,
+                                        "arrival": 1744587556
+                                    },
+                                    "estimated": {
+                                        "departure": null,
+                                        "arrival": null
+                                    },
+                                    "other": {
+                                        "eta": 1744587556,
+                                        "duration": null
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "flight": {
+                                "identification": {
+                                    "id": "39e20cc7",
+                                    "row": 5648618686,
+                                    "number": {
+                                        "default": "ERU60",
+                                        "alternative": null
+                                    },
+                                    "callsign": "ERU60",
+                                    "codeshare": null
+                                },
+                                "status": {
+                                    "live": false,
+                                    "text": "Departed 16:22",
+                                    "icon": "green",
+                                    "estimated": null,
+                                    "ambiguous": false,
+                                    "generic": {
+                                        "status": {
+                                            "text": "departed",
+                                            "type": "departure",
+                                            "color": "green",
+                                            "diverted": null
+                                        },
+                                        "eventTime": {
+                                            "utc": 1744586550,
+                                            "local": 1744561350
+                                        }
+                                    }
+                                },
+                                "aircraft": {
+                                    "model": {
+                                        "code": "C172",
+                                        "text": "Cessna 172S Skyhawk SP"
+                                    },
+                                    "registration": "N660ER",
+                                    "country": {
+                                        "id": 236,
+                                        "name": "United States",
+                                        "alpha2": "US",
+                                        "alpha3": "USA"
+                                    },
+                                    "hex": "A8B4AD",
+                                    "restricted": false,
+                                    "serialNo": null,
+                                    "age": {
+                                        "availability": true
+                                    },
+                                    "availability": {
+                                        "serialNo": true,
+                                        "age": true
+                                    }
+                                },
+                                "owner": {
+                                    "name": "Embry-Riddle Aeronautical University",
+                                    "code": {
+                                        "iata": null,
+                                        "icao": "ERU"
+                                    },
+                                    "logo": null
+                                },
+                                "airline": {
+                                    "name": "Embry-Riddle Aeronautical University",
+                                    "code": {
+                                        "iata": null,
+                                        "icao": "ERU"
+                                    },
+                                    "short": "Embry-Riddle Aeronautical University"
+                                },
+                                "airport": {
+                                    "origin": {
+                                        "timezone": {
+                                            "name": "America/Phoenix",
+                                            "offset": -25200,
+                                            "abbr": "MST",
+                                            "abbrName": "Mountain Standard Time",
+                                            "isDst": false
+                                        },
+                                        "info": {
+                                            "terminal": null,
+                                            "baggage": null,
+                                            "gate": null
+                                        }
+                                    },
+                                    "destination": {
+                                        "code": {
+                                            "iata": "PRC",
+                                            "icao": "KPRC"
+                                        },
+                                        "timezone": {
+                                            "name": "America/Phoenix",
+                                            "offset": -25200,
+                                            "abbr": "MST",
+                                            "abbrName": "Mountain Standard Time",
+                                            "isDst": false
+                                        },
+                                        "info": {
+                                            "terminal": null,
+                                            "baggage": null,
+                                            "gate": null
+                                        },
+                                        "name": "Prescott Municipal Airport",
+                                        "position": {
+                                            "latitude": 34.654469,
+                                            "longitude": -112.418999,
+                                            "country": {
+                                                "name": "United States",
+                                                "code": "US",
+                                                "id": 236
+                                            },
+                                            "region": {
+                                                "city": "Prescott"
+                                            }
+                                        },
+                                        "visible": true
+                                    },
+                                    "real": null
+                                },
+                                "time": {
+                                    "scheduled": {
+                                        "departure": 1744592400,
+                                        "arrival": 1744596960
+                                    },
+                                    "real": {
+                                        "departure": 1744586550,
+                                        "arrival": 1744587676
+                                    },
+                                    "estimated": {
+                                        "departure": null,
+                                        "arrival": null
+                                    },
+                                    "other": {
+                                        "eta": 1744587676,
+                                        "duration": null
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "flight": {
+                                "identification": {
+                                    "id": "39e23653",
+                                    "row": 5645149484,
+                                    "number": {
+                                        "default": "UA5066",
+                                        "alternative": "OO5066"
+                                    },
+                                    "callsign": "SKW5066",
+                                    "codeshare": null
+                                },
+                                "status": {
+                                    "live": false,
+                                    "text": "Departed 17:53",
+                                    "icon": "yellow",
+                                    "estimated": null,
+                                    "ambiguous": false,
+                                    "generic": {
+                                        "status": {
+                                            "text": "departed",
+                                            "type": "departure",
+                                            "color": "yellow",
+                                            "diverted": null
+                                        },
+                                        "eventTime": {
+                                            "utc": 1744592022,
+                                            "local": 1744566822
+                                        }
+                                    }
+                                },
+                                "aircraft": {
+                                    "model": {
+                                        "code": "CRJ2",
+                                        "text": "Mitsubishi CRJ-200LR"
+                                    },
+                                    "registration": "N908EV",
+                                    "country": {
+                                        "id": 236,
+                                        "name": "United States",
+                                        "alpha2": "US",
+                                        "alpha3": "USA"
+                                    },
+                                    "hex": "AC8D5C",
+                                    "restricted": false,
+                                    "serialNo": null,
+                                    "age": {
+                                        "availability": true
+                                    },
+                                    "availability": {
+                                        "serialNo": true,
+                                        "age": true
+                                    }
+                                },
+                                "owner": {
+                                    "name": "SkyWest Airlines",
+                                    "code": {
+                                        "iata": "OO",
+                                        "icao": "SKW"
+                                    },
+                                    "logo": "https://cdn.flightradar24.com/assets/airlines/logotypes/344.png"
+                                },
+                                "airline": {
+                                    "name": "SkyWest Airlines",
+                                    "code": {
+                                        "iata": "OO",
+                                        "icao": "SKW"
+                                    },
+                                    "short": "SkyWest Airlines"
+                                },
+                                "airport": {
+                                    "origin": {
+                                        "timezone": {
+                                            "name": "America/Phoenix",
+                                            "offset": -25200,
+                                            "abbr": "MST",
+                                            "abbrName": "Mountain Standard Time",
+                                            "isDst": false
+                                        },
+                                        "info": {
+                                            "terminal": null,
+                                            "baggage": null,
+                                            "gate": "2"
+                                        }
+                                    },
+                                    "destination": {
+                                        "code": {
+                                            "iata": "LAX",
+                                            "icao": "KLAX"
+                                        },
+                                        "timezone": {
+                                            "name": "America/Los_Angeles",
+                                            "offset": -25200,
+                                            "abbr": "PDT",
+                                            "abbrName": "Pacific Daylight Time",
+                                            "isDst": true
+                                        },
+                                        "info": {
+                                            "terminal": "8",
+                                            "baggage": "4",
+                                            "gate": "82"
+                                        },
+                                        "name": "Los Angeles International Airport",
+                                        "position": {
+                                            "latitude": 33.94252,
+                                            "longitude": -118.406998,
+                                            "country": {
+                                                "name": "United States",
+                                                "code": "US",
+                                                "id": 236
+                                            },
+                                            "region": {
+                                                "city": "Los Angeles"
+                                            }
+                                        },
+                                        "visible": true
+                                    },
+                                    "real": null
+                                },
+                                "time": {
+                                    "scheduled": {
+                                        "departure": 1744589700,
+                                        "arrival": 1744595160
+                                    },
+                                    "real": {
+                                        "departure": 1744592022,
+                                        "arrival": 1744595745
+                                    },
+                                    "estimated": {
+                                        "departure": null,
+                                        "arrival": null
+                                    },
+                                    "other": {
+                                        "eta": 1744595745,
+                                        "duration": null
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "flight": {
+                                "identification": {
+                                    "id": "39e22096",
+                                    "row": 5648618885,
+                                    "number": {
+                                        "default": null,
+                                        "alternative": null
+                                    },
+                                    "callsign": "N474SM",
+                                    "codeshare": null
+                                },
+                                "status": {
+                                    "live": false,
+                                    "text": "Departed 17:13",
+                                    "icon": "green",
+                                    "estimated": null,
+                                    "ambiguous": false,
+                                    "generic": {
+                                        "status": {
+                                            "text": "departed",
+                                            "type": "departure",
+                                            "color": "green",
+                                            "diverted": null
+                                        },
+                                        "eventTime": {
+                                            "utc": 1744589584,
+                                            "local": 1744564384
+                                        }
+                                    }
+                                },
+                                "aircraft": {
+                                    "model": {
+                                        "code": "C172",
+                                        "text": "Cessna 172S Skyhawk SP"
+                                    },
+                                    "registration": "N474SM",
+                                    "country": {
+                                        "id": 236,
+                                        "name": "United States",
+                                        "alpha2": "US",
+                                        "alpha3": "USA"
+                                    },
+                                    "hex": "A5D192",
+                                    "restricted": false,
+                                    "serialNo": null,
+                                    "age": {
+                                        "availability": true
+                                    },
+                                    "availability": {
+                                        "serialNo": true,
+                                        "age": true
+                                    }
+                                },
+                                "owner": null,
+                                "airline": null,
+                                "airport": {
+                                    "origin": {
+                                        "timezone": {
+                                            "name": "America/Phoenix",
+                                            "offset": -25200,
+                                            "abbr": "MST",
+                                            "abbrName": "Mountain Standard Time",
+                                            "isDst": false
+                                        },
+                                        "info": {
+                                            "terminal": null,
+                                            "baggage": null,
+                                            "gate": null
+                                        }
+                                    },
+                                    "destination": {
+                                        "code": {
+                                            "iata": "CLD",
+                                            "icao": "KCRQ"
+                                        },
+                                        "timezone": {
+                                            "name": "America/Los_Angeles",
+                                            "offset": -25200,
+                                            "abbr": "PDT",
+                                            "abbrName": "Pacific Daylight Time",
+                                            "isDst": true
+                                        },
+                                        "info": {
+                                            "terminal": null,
+                                            "baggage": null,
+                                            "gate": null
+                                        },
+                                        "name": "San Diego McClellan Palomar Airport",
+                                        "position": {
+                                            "latitude": 33.12825,
+                                            "longitude": -117.279999,
+                                            "country": {
+                                                "name": "United States",
+                                                "code": "US",
+                                                "id": 236
+                                            },
+                                            "region": {
+                                                "city": "San Diego"
+                                            }
+                                        },
+                                        "visible": true
+                                    },
+                                    "real": null
+                                },
+                                "time": {
+                                    "scheduled": {
+                                        "departure": 1744589400,
+                                        "arrival": 1744599489
+                                    },
+                                    "real": {
+                                        "departure": 1744589584,
+                                        "arrival": 1744599418
+                                    },
+                                    "estimated": {
+                                        "departure": null,
+                                        "arrival": null
+                                    },
+                                    "other": {
+                                        "eta": 1744599418,
+                                        "duration": null
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "flight": {
+                                "identification": {
+                                    "id": "39e204ae",
+                                    "row": 5648616469,
+                                    "number": {
+                                        "default": null,
+                                        "alternative": null
+                                    },
+                                    "callsign": "N8GF",
+                                    "codeshare": null
+                                },
+                                "status": {
+                                    "live": false,
+                                    "text": "Departed 16:21",
+                                    "icon": "green",
+                                    "estimated": null,
+                                    "ambiguous": false,
+                                    "generic": {
+                                        "status": {
+                                            "text": "departed",
+                                            "type": "departure",
+                                            "color": "green",
+                                            "diverted": null
+                                        },
+                                        "eventTime": {
+                                            "utc": 1744586497,
+                                            "local": 1744561297
+                                        }
+                                    }
+                                },
+                                "aircraft": {
+                                    "model": {
+                                        "code": "P180",
+                                        "text": "Piaggio P.180 Avanti"
+                                    },
+                                    "registration": "N8GF",
+                                    "country": {
+                                        "id": 236,
+                                        "name": "United States",
+                                        "alpha2": "US",
+                                        "alpha3": "USA"
+                                    },
+                                    "hex": "AADDC7",
+                                    "restricted": false,
+                                    "serialNo": null,
+                                    "age": {
+                                        "availability": true
+                                    },
+                                    "availability": {
+                                        "serialNo": true,
+                                        "age": true
+                                    }
+                                },
+                                "owner": null,
+                                "airline": null,
+                                "airport": {
+                                    "origin": {
+                                        "timezone": {
+                                            "name": "America/Phoenix",
+                                            "offset": -25200,
+                                            "abbr": "MST",
+                                            "abbrName": "Mountain Standard Time",
+                                            "isDst": false
+                                        },
+                                        "info": {
+                                            "terminal": null,
+                                            "baggage": null,
+                                            "gate": null
+                                        }
+                                    },
+                                    "destination": {
+                                        "code": {
+                                            "iata": "ELP",
+                                            "icao": "KELP"
+                                        },
+                                        "timezone": {
+                                            "name": "America/Denver",
+                                            "offset": -21600,
+                                            "abbr": "MDT",
+                                            "abbrName": "Mountain Daylight Time",
+                                            "isDst": true
+                                        },
+                                        "info": {
+                                            "terminal": null,
+                                            "baggage": null,
+                                            "gate": null
+                                        },
+                                        "name": "El Paso International Airport",
+                                        "position": {
+                                            "latitude": 31.806374,
+                                            "longitude": -106.38858,
+                                            "country": {
+                                                "name": "United States",
+                                                "code": "US",
+                                                "id": 236
+                                            },
+                                            "region": {
+                                                "city": "El Paso"
+                                            }
+                                        },
+                                        "visible": true
+                                    },
+                                    "real": null
+                                },
+                                "time": {
+                                    "scheduled": {
+                                        "departure": 1744586100,
+                                        "arrival": 1744590531
+                                    },
+                                    "real": {
+                                        "departure": 1744586497,
+                                        "arrival": 1744590625
+                                    },
+                                    "estimated": {
+                                        "departure": null,
+                                        "arrival": null
+                                    },
+                                    "other": {
+                                        "eta": 1744590625,
+                                        "duration": null
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "flight": {
+                                "identification": {
+                                    "id": "39e1e43a",
+                                    "row": 5648606834,
+                                    "number": {
+                                        "default": null,
+                                        "alternative": null
+                                    },
+                                    "callsign": "N249K",
+                                    "codeshare": null
+                                },
+                                "status": {
+                                    "live": false,
+                                    "text": "Departed 15:43",
+                                    "icon": "yellow",
+                                    "estimated": null,
+                                    "ambiguous": false,
+                                    "generic": {
+                                        "status": {
+                                            "text": "departed",
+                                            "type": "departure",
+                                            "color": "yellow",
+                                            "diverted": null
+                                        },
+                                        "eventTime": {
+                                            "utc": 1744584207,
+                                            "local": 1744559007
+                                        }
+                                    }
+                                },
+                                "aircraft": {
+                                    "model": {
+                                        "code": "C172",
+                                        "text": "Cessna 172S Skyhawk SP"
+                                    },
+                                    "registration": "N249K",
+                                    "country": {
+                                        "id": 236,
+                                        "name": "United States",
+                                        "alpha2": "US",
+                                        "alpha3": "USA"
+                                    },
+                                    "hex": "A2524F",
+                                    "restricted": false,
+                                    "serialNo": null,
+                                    "age": {
+                                        "availability": true
+                                    },
+                                    "availability": {
+                                        "serialNo": true,
+                                        "age": true
+                                    }
+                                },
+                                "owner": null,
+                                "airline": null,
+                                "airport": {
+                                    "origin": {
+                                        "timezone": {
+                                            "name": "America/Phoenix",
+                                            "offset": -25200,
+                                            "abbr": "MST",
+                                            "abbrName": "Mountain Standard Time",
+                                            "isDst": false
+                                        },
+                                        "info": {
+                                            "terminal": null,
+                                            "baggage": null,
+                                            "gate": null
+                                        }
+                                    },
+                                    "destination": {
+                                        "code": {
+                                            "iata": "HSH",
+                                            "icao": "KHND"
+                                        },
+                                        "timezone": {
+                                            "name": "America/Los_Angeles",
+                                            "offset": -25200,
+                                            "abbr": "PDT",
+                                            "abbrName": "Pacific Daylight Time",
+                                            "isDst": true
+                                        },
+                                        "info": {
+                                            "terminal": null,
+                                            "baggage": null,
+                                            "gate": null
+                                        },
+                                        "name": "Las Vegas Henderson Executive Airport",
+                                        "position": {
+                                            "latitude": 35.974396,
+                                            "longitude": -115.135384,
+                                            "country": {
+                                                "name": "United States",
+                                                "code": "US",
+                                                "id": 236
+                                            },
+                                            "region": {
+                                                "city": "Las Vegas"
+                                            }
+                                        },
+                                        "visible": true
+                                    },
+                                    "real": null
+                                },
+                                "time": {
+                                    "scheduled": {
+                                        "departure": 1744581600,
+                                        "arrival": 1744588992
+                                    },
+                                    "real": {
+                                        "departure": 1744584207,
+                                        "arrival": 1744590384
+                                    },
+                                    "estimated": {
+                                        "departure": null,
+                                        "arrival": null
+                                    },
+                                    "other": {
+                                        "eta": 1744590384,
+                                        "duration": null
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "flight": {
+                                "identification": {
+                                    "id": "39e1bdad",
+                                    "row": 5648603892,
+                                    "number": {
+                                        "default": null,
+                                        "alternative": null
+                                    },
+                                    "callsign": "N239K",
+                                    "codeshare": null
+                                },
+                                "status": {
+                                    "live": false,
+                                    "text": "Departed 14:37",
+                                    "icon": "yellow",
+                                    "estimated": null,
+                                    "ambiguous": false,
+                                    "generic": {
+                                        "status": {
+                                            "text": "departed",
+                                            "type": "departure",
+                                            "color": "yellow",
+                                            "diverted": null
+                                        },
+                                        "eventTime": {
+                                            "utc": 1744580242,
+                                            "local": 1744555042
+                                        }
+                                    }
+                                },
+                                "aircraft": {
+                                    "model": {
+                                        "code": "C172",
+                                        "text": "Cessna 172S Skyhawk SP"
+                                    },
+                                    "registration": "N239K",
+                                    "country": {
+                                        "id": 236,
+                                        "name": "United States",
+                                        "alpha2": "US",
+                                        "alpha3": "USA"
+                                    },
+                                    "hex": "A22AD0",
+                                    "restricted": false,
+                                    "serialNo": null,
+                                    "age": {
+                                        "availability": true
+                                    },
+                                    "availability": {
+                                        "serialNo": true,
+                                        "age": true
+                                    }
+                                },
+                                "owner": null,
+                                "airline": null,
+                                "airport": {
+                                    "origin": {
+                                        "timezone": {
+                                            "name": "America/Phoenix",
+                                            "offset": -25200,
+                                            "abbr": "MST",
+                                            "abbrName": "Mountain Standard Time",
+                                            "isDst": false
+                                        },
+                                        "info": {
+                                            "terminal": null,
+                                            "baggage": null,
+                                            "gate": null
+                                        }
+                                    },
+                                    "destination": {
+                                        "code": {
+                                            "iata": "LAS",
+                                            "icao": "KLAS"
+                                        },
+                                        "timezone": {
+                                            "name": "America/Los_Angeles",
+                                            "offset": -25200,
+                                            "abbr": "PDT",
+                                            "abbrName": "Pacific Daylight Time",
+                                            "isDst": true
+                                        },
+                                        "info": {
+                                            "terminal": null,
+                                            "baggage": null,
+                                            "gate": null
+                                        },
+                                        "name": "Las Vegas Harry Reid International Airport",
+                                        "position": {
+                                            "latitude": 36.080051,
+                                            "longitude": -115.152,
+                                            "country": {
+                                                "name": "United States",
+                                                "code": "US",
+                                                "id": 236
+                                            },
+                                            "region": {
+                                                "city": "Las Vegas"
+                                            }
+                                        },
+                                        "visible": true
+                                    },
+                                    "real": {
+                                        "name": "Prescott Municipal Airport",
+                                        "code": {
+                                            "iata": "PRC",
+                                            "icao": "KPRC"
+                                        },
+                                        "position": {
+                                            "latitude": 34.654469,
+                                            "longitude": -112.418999,
+                                            "country": {
+                                                "name": "United States",
+                                                "code": "US",
+                                                "id": 236
+                                            },
+                                            "region": {
+                                                "city": "Prescott"
+                                            }
+                                        },
+                                        "timezone": {
+                                            "name": "America/Phoenix",
+                                            "offset": -25200,
+                                            "abbr": "MST",
+                                            "abbrName": "Mountain Standard Time",
+                                            "isDst": false
+                                        },
+                                        "visible": true
+                                    }
+                                },
+                                "time": {
+                                    "scheduled": {
+                                        "departure": 1744578300,
+                                        "arrival": 1744583987
+                                    },
+                                    "real": {
+                                        "departure": 1744580242,
+                                        "arrival": 1744583846
+                                    },
+                                    "estimated": {
+                                        "departure": null,
+                                        "arrival": null
+                                    },
+                                    "other": {
+                                        "eta": 1744583846,
+                                        "duration": null
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "flight": {
+                                "identification": {
+                                    "id": "39e1484c",
+                                    "row": 5648577051,
+                                    "number": {
+                                        "default": null,
+                                        "alternative": null
+                                    },
+                                    "callsign": "N239K",
+                                    "codeshare": null
+                                },
+                                "status": {
+                                    "live": false,
+                                    "text": "Departed 11:42",
+                                    "icon": "green",
+                                    "estimated": null,
+                                    "ambiguous": false,
+                                    "generic": {
+                                        "status": {
+                                            "text": "departed",
+                                            "type": "departure",
+                                            "color": "green",
+                                            "diverted": null
+                                        },
+                                        "eventTime": {
+                                            "utc": 1744569747,
+                                            "local": 1744544547
+                                        }
+                                    }
+                                },
+                                "aircraft": {
+                                    "model": {
+                                        "code": "C172",
+                                        "text": "Cessna 172S Skyhawk SP"
+                                    },
+                                    "registration": "N239K",
+                                    "country": {
+                                        "id": 236,
+                                        "name": "United States",
+                                        "alpha2": "US",
+                                        "alpha3": "USA"
+                                    },
+                                    "hex": "A22AD0",
+                                    "restricted": false,
+                                    "serialNo": null,
+                                    "age": {
+                                        "availability": true
+                                    },
+                                    "availability": {
+                                        "serialNo": true,
+                                        "age": true
+                                    }
+                                },
+                                "owner": null,
+                                "airline": null,
+                                "airport": {
+                                    "origin": {
+                                        "timezone": {
+                                            "name": "America/Phoenix",
+                                            "offset": -25200,
+                                            "abbr": "MST",
+                                            "abbrName": "Mountain Standard Time",
+                                            "isDst": false
+                                        },
+                                        "info": {
+                                            "terminal": null,
+                                            "baggage": null,
+                                            "gate": null
+                                        }
+                                    },
+                                    "destination": {
+                                        "code": {
+                                            "iata": "PRC",
+                                            "icao": "KPRC"
+                                        },
+                                        "timezone": {
+                                            "name": "America/Phoenix",
+                                            "offset": -25200,
+                                            "abbr": "MST",
+                                            "abbrName": "Mountain Standard Time",
+                                            "isDst": false
+                                        },
+                                        "info": {
+                                            "terminal": null,
+                                            "baggage": null,
+                                            "gate": null
+                                        },
+                                        "name": "Prescott Municipal Airport",
+                                        "position": {
+                                            "latitude": 34.654469,
+                                            "longitude": -112.418999,
+                                            "country": {
+                                                "name": "United States",
+                                                "code": "US",
+                                                "id": 236
+                                            },
+                                            "region": {
+                                                "city": "Prescott"
+                                            }
+                                        },
+                                        "visible": true
+                                    },
+                                    "real": null
+                                },
+                                "time": {
+                                    "scheduled": {
+                                        "departure": 1744578300,
+                                        "arrival": 1744583987
+                                    },
+                                    "real": {
+                                        "departure": 1744569747,
+                                        "arrival": 1744574687
+                                    },
+                                    "estimated": {
+                                        "departure": null,
+                                        "arrival": null
+                                    },
+                                    "other": {
+                                        "eta": 1744574687,
+                                        "duration": null
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "flight": {
+                                "identification": {
+                                    "id": "39e18bee",
+                                    "row": 5648593244,
+                                    "number": {
+                                        "default": "ERU35",
+                                        "alternative": null
+                                    },
+                                    "callsign": "ERU35",
+                                    "codeshare": null
+                                },
+                                "status": {
+                                    "live": false,
+                                    "text": "Departed 13:12",
+                                    "icon": "green",
+                                    "estimated": null,
+                                    "ambiguous": false,
+                                    "generic": {
+                                        "status": {
+                                            "text": "departed",
+                                            "type": "departure",
+                                            "color": "green",
+                                            "diverted": null
+                                        },
+                                        "eventTime": {
+                                            "utc": 1744575131,
+                                            "local": 1744549931
+                                        }
+                                    }
+                                },
+                                "aircraft": {
+                                    "model": {
+                                        "code": "C172",
+                                        "text": "Cessna 172S Skyhawk SP"
+                                    },
+                                    "registration": "N535ER",
+                                    "country": {
+                                        "id": 236,
+                                        "name": "United States",
+                                        "alpha2": "US",
+                                        "alpha3": "USA"
+                                    },
+                                    "hex": "A6C374",
+                                    "restricted": false,
+                                    "serialNo": null,
+                                    "age": {
+                                        "availability": true
+                                    },
+                                    "availability": {
+                                        "serialNo": true,
+                                        "age": true
+                                    }
+                                },
+                                "owner": {
+                                    "name": "Embry-Riddle Aeronautical University",
+                                    "code": {
+                                        "iata": null,
+                                        "icao": "ERU"
+                                    },
+                                    "logo": null
+                                },
+                                "airline": {
+                                    "name": "Embry-Riddle Aeronautical University",
+                                    "code": {
+                                        "iata": null,
+                                        "icao": "ERU"
+                                    },
+                                    "short": "Embry-Riddle Aeronautical University"
+                                },
+                                "airport": {
+                                    "origin": {
+                                        "timezone": {
+                                            "name": "America/Phoenix",
+                                            "offset": -25200,
+                                            "abbr": "MST",
+                                            "abbrName": "Mountain Standard Time",
+                                            "isDst": false
+                                        },
+                                        "info": {
+                                            "terminal": null,
+                                            "baggage": null,
+                                            "gate": null
+                                        }
+                                    },
+                                    "destination": {
+                                        "code": {
+                                            "iata": "DVT",
+                                            "icao": "KDVT"
+                                        },
+                                        "timezone": {
+                                            "name": "America/Phoenix",
+                                            "offset": -25200,
+                                            "abbr": "MST",
+                                            "abbrName": "Mountain Standard Time",
+                                            "isDst": false
+                                        },
+                                        "info": {
+                                            "terminal": null,
+                                            "baggage": null,
+                                            "gate": null
+                                        },
+                                        "name": "Phoenix Deer Valley Airport",
+                                        "position": {
+                                            "latitude": 33.688332,
+                                            "longitude": -112.082497,
+                                            "country": {
+                                                "name": "United States",
+                                                "code": "US",
+                                                "id": 236
+                                            },
+                                            "region": {
+                                                "city": "Phoenix"
+                                            }
+                                        },
+                                        "visible": true
+                                    },
+                                    "real": null
+                                },
+                                "time": {
+                                    "scheduled": {
+                                        "departure": 1744575600,
+                                        "arrival": 1744579620
+                                    },
+                                    "real": {
+                                        "departure": 1744575131,
+                                        "arrival": 1744579358
+                                    },
+                                    "estimated": {
+                                        "departure": null,
+                                        "arrival": null
+                                    },
+                                    "other": {
+                                        "eta": 1744579358,
+                                        "duration": null
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "flight": {
+                                "identification": {
+                                    "id": "39e1554a",
+                                    "row": 5648572086,
+                                    "number": {
+                                        "default": "ERU53",
+                                        "alternative": null
+                                    },
+                                    "callsign": "ERU53",
+                                    "codeshare": null
+                                },
+                                "status": {
+                                    "live": false,
+                                    "text": "Departed 12:01",
+                                    "icon": "green",
+                                    "estimated": null,
+                                    "ambiguous": false,
+                                    "generic": {
+                                        "status": {
+                                            "text": "departed",
+                                            "type": "departure",
+                                            "color": "green",
+                                            "diverted": null
+                                        },
+                                        "eventTime": {
+                                            "utc": 1744570861,
+                                            "local": 1744545661
+                                        }
+                                    }
+                                },
+                                "aircraft": {
+                                    "model": {
+                                        "code": "C172",
+                                        "text": "Cessna 172S Skyhawk SP"
+                                    },
+                                    "registration": "N653ER",
+                                    "country": {
+                                        "id": 236,
+                                        "name": "United States",
+                                        "alpha2": "US",
+                                        "alpha3": "USA"
+                                    },
+                                    "hex": "A89853",
+                                    "restricted": false,
+                                    "serialNo": null,
+                                    "age": {
+                                        "availability": true
+                                    },
+                                    "availability": {
+                                        "serialNo": true,
+                                        "age": true
+                                    }
+                                },
+                                "owner": {
+                                    "name": "Embry-Riddle Aeronautical University",
+                                    "code": {
+                                        "iata": null,
+                                        "icao": "ERU"
+                                    },
+                                    "logo": null
+                                },
+                                "airline": {
+                                    "name": "Embry-Riddle Aeronautical University",
+                                    "code": {
+                                        "iata": null,
+                                        "icao": "ERU"
+                                    },
+                                    "short": "Embry-Riddle Aeronautical University"
+                                },
+                                "airport": {
+                                    "origin": {
+                                        "timezone": {
+                                            "name": "America/Phoenix",
+                                            "offset": -25200,
+                                            "abbr": "MST",
+                                            "abbrName": "Mountain Standard Time",
+                                            "isDst": false
+                                        },
+                                        "info": {
+                                            "terminal": null,
+                                            "baggage": null,
+                                            "gate": null
+                                        }
+                                    },
+                                    "destination": {
+                                        "code": {
+                                            "iata": "SGU",
+                                            "icao": "KSGU"
+                                        },
+                                        "timezone": {
+                                            "name": "America/Denver",
+                                            "offset": -21600,
+                                            "abbr": "MDT",
+                                            "abbrName": "Mountain Daylight Time",
+                                            "isDst": true
+                                        },
+                                        "info": {
+                                            "terminal": null,
+                                            "baggage": null,
+                                            "gate": null
+                                        },
+                                        "name": "St. George Regional Airport",
+                                        "position": {
+                                            "latitude": 37.029999,
+                                            "longitude": -113.510002,
+                                            "country": {
+                                                "name": "United States",
+                                                "code": "US",
+                                                "id": 236
+                                            },
+                                            "region": {
+                                                "city": "St. George"
+                                            }
+                                        },
+                                        "visible": true
+                                    },
+                                    "real": null
+                                },
+                                "time": {
+                                    "scheduled": {
+                                        "departure": 1744570800,
+                                        "arrival": 1744579020
+                                    },
+                                    "real": {
+                                        "departure": 1744570861,
+                                        "arrival": 1744578099
+                                    },
+                                    "estimated": {
+                                        "departure": null,
+                                        "arrival": null
+                                    },
+                                    "other": {
+                                        "eta": 1744578099,
+                                        "duration": null
+                                    }
+                                }
+                            }
+                        }
+                    ]
+                }
+            },
+            "weather": {
+                "metar": "KPRC 150553Z AUTO 21003KT 10SM CLR 13/00 A3016 RMK AO2 SLP148 T01280000 10211 20122 51008",
+                "time": 1744696380,
+                "qnh": 1021,
+                "dewpoint": {
+                    "celsius": 0,
+                    "fahrenheit": 32
+                },
+                "humidity": 41,
+                "pressure": {
+                    "hg": 30,
+                    "hpa": 1021
+                },
+                "sky": {
+                    "condition": {
+                        "text": "Clear"
+                    },
+                    "visibility": {
+                        "km": 16093000,
+                        "mi": 10,
+                        "nmi": 9
+                    }
+                },
+                "flight": {
+                    "category": null
+                },
+                "wind": {
+                    "direction": {
+                        "degree": 210,
+                        "text": "From southwest"
+                    },
+                    "speed": {
+                        "kmh": 7,
+                        "kts": 4,
+                        "mph": 4,
+                        "text": "Calm"
+                    }
+                },
+                "temp": {
+                    "celsius": 13,
+                    "fahrenheit": 55
+                },
+                "elevation": {
+                    "m": 1537,
+                    "ft": 5043
+                },
+                "cached": 1744697029
+            },
+            "aircraftCount": {
+                "ground": 228,
+                "onGround": {
+                    "visible": 0,
+                    "total": 201
+                }
+            },
+            "runways": [
+                {
+                    "name": "03L",
+                    "length": {
+                        "ft": 4846,
+                        "m": 1477
+                    },
+                    "surface": {
+                        "code": "ASPH",
+                        "name": "Asphalt"
+                    }
+                },
+                {
+                    "name": "03R",
+                    "length": {
+                        "ft": 7619,
+                        "m": 2322
+                    },
+                    "surface": {
+                        "code": "ASPH",
+                        "name": "Asphalt"
+                    }
+                },
+                {
+                    "name": "12",
+                    "length": {
+                        "ft": 4408,
+                        "m": 1343
+                    },
+                    "surface": {
+                        "code": "ASPH",
+                        "name": "Asphalt"
+                    }
+                },
+                {
+                    "name": "21L",
+                    "length": {
+                        "ft": 7619,
+                        "m": 2322
+                    },
+                    "surface": {
+                        "code": "ASPH",
+                        "name": "Asphalt"
+                    }
+                },
+                {
+                    "name": "21R",
+                    "length": {
+                        "ft": 4846,
+                        "m": 1477
+                    },
+                    "surface": {
+                        "code": "ASPH",
+                        "name": "Asphalt"
+                    }
+                },
+                {
+                    "name": "30",
+                    "length": {
+                        "ft": 4408,
+                        "m": 1343
+                    },
+                    "surface": {
+                        "code": "ASPH",
+                        "name": "Asphalt"
+                    }
+                }
+            ]
+        }
+    },
+    "airlines": {
+        "codeshare": null
+    },
+    "aircraftImages": [
+        {
+            "registration": "N474SM",
+            "images": {
+                "sideview": "https://www.flightradar24.com/static/images/sideviews/thumbnails/C172.jpg",
+                "thumbnails": [
+                    {
+                        "src": "https://www.flightradar24.com/static/images/sideviews/thumbnails/C172.jpg",
+                        "link": "",
+                        "copyright": "Flightradar24",
+                        "source": "Flightradar24"
+                    }
+                ]
+            }
+        },
+        {
+            "registration": "N672AV",
+            "images": {
+                "thumbnails": [
+                    {
+                        "src": "https://cdn.jetphotos.com/200/5/950088_1718247408_tb.jpg?v=0",
+                        "link": "https://www.jetphotos.com/photo/11377133",
+                        "copyright": "Ginervra",
+                        "source": "Jetphotos.com"
+                    },
+                    {
+                        "src": "https://cdn.jetphotos.com/200/2/55633_1165648620_tb.jpg?v=0",
+                        "link": "https://www.jetphotos.com/photo/5873738",
+                        "copyright": "Michael Faia",
+                        "source": "Jetphotos.com"
+                    }
+                ],
+                "medium": [
+                    {
+                        "src": "https://cdn.jetphotos.com/400/5/950088_1718247408.jpg?v=0",
+                        "link": "https://www.jetphotos.com/photo/11377133",
+                        "copyright": "Ginervra",
+                        "source": "Jetphotos.com"
+                    },
+                    {
+                        "src": "https://cdn.jetphotos.com/400/2/55633_1165648620.jpg?v=0",
+                        "link": "https://www.jetphotos.com/photo/5873738",
+                        "copyright": "Michael Faia",
+                        "source": "Jetphotos.com"
+                    }
+                ],
+                "large": [
+                    {
+                        "src": "https://cdn.jetphotos.com/640cb/5/950088_1718247408.jpg?v=0",
+                        "link": "https://www.jetphotos.com/photo/11377133",
+                        "copyright": "Ginervra",
+                        "source": "Jetphotos.com"
+                    },
+                    {
+                        "src": "https://cdn.jetphotos.com/640cb/2/55633_1165648620.jpg?v=0",
+                        "link": "https://www.jetphotos.com/photo/5873738",
+                        "copyright": "Michael Faia",
+                        "source": "Jetphotos.com"
+                    }
+                ]
+            }
+        },
+        {
+            "registration": "N675ER",
+            "images": {
+                "thumbnails": [
+                    {
+                        "src": "https://cdn.jetphotos.com/200/6/721730_1704951196_tb.jpg?v=0",
+                        "link": "https://www.jetphotos.com/photo/11205626",
+                        "copyright": "Xiamen Air 849 Heavy",
+                        "source": "Jetphotos.com"
+                    },
+                    {
+                        "src": "https://cdn.jetphotos.com/200/6/33677_1644358159_tb.jpg?v=0",
+                        "link": "https://www.jetphotos.com/photo/10469668",
+                        "copyright": "David Lee",
+                        "source": "Jetphotos.com"
+                    }
+                ],
+                "medium": [
+                    {
+                        "src": "https://cdn.jetphotos.com/400/6/721730_1704951196.jpg?v=0",
+                        "link": "https://www.jetphotos.com/photo/11205626",
+                        "copyright": "Xiamen Air 849 Heavy",
+                        "source": "Jetphotos.com"
+                    },
+                    {
+                        "src": "https://cdn.jetphotos.com/400/6/33677_1644358159.jpg?v=0",
+                        "link": "https://www.jetphotos.com/photo/10469668",
+                        "copyright": "David Lee",
+                        "source": "Jetphotos.com"
+                    }
+                ],
+                "large": [
+                    {
+                        "src": "https://cdn.jetphotos.com/640cb/6/721730_1704951196.jpg?v=0",
+                        "link": "https://www.jetphotos.com/photo/11205626",
+                        "copyright": "Xiamen Air 849 Heavy",
+                        "source": "Jetphotos.com"
+                    },
+                    {
+                        "src": "https://cdn.jetphotos.com/640cb/6/33677_1644358159.jpg?v=0",
+                        "link": "https://www.jetphotos.com/photo/10469668",
+                        "copyright": "David Lee",
+                        "source": "Jetphotos.com"
+                    }
+                ]
+            }
+        },
+        {
+            "registration": "N986SW",
+            "images": {
+                "thumbnails": [
+                    {
+                        "src": "https://cdn.jetphotos.com/200/5/702259_1740367470_tb.jpg?v=0",
+                        "link": "https://www.jetphotos.com/photo/11647209",
+                        "copyright": "Caden Henderson",
+                        "source": "Jetphotos.com"
+                    },
+                    {
+                        "src": "https://cdn.jetphotos.com/200/6/809364_1732667396_tb.jpg?v=0",
+                        "link": "https://www.jetphotos.com/photo/11560623",
+                        "copyright": "Neil Misra",
+                        "source": "Jetphotos.com"
+                    },
+                    {
+                        "src": "https://cdn.jetphotos.com/200/5/2587191_1729621295_tb.jpg?v=0",
+                        "link": "https://www.jetphotos.com/photo/11518035",
+                        "copyright": "Steven Ma",
+                        "source": "Jetphotos.com"
+                    },
+                    {
+                        "src": "https://cdn.jetphotos.com/200/6/1981984_1729470281_tb.jpg?v=0",
+                        "link": "https://www.jetphotos.com/photo/11515766",
+                        "copyright": "Contrail",
+                        "source": "Jetphotos.com"
+                    },
+                    {
+                        "src": "https://cdn.jetphotos.com/200/5/1410345_1713987092_tb.jpg?v=0",
+                        "link": "https://www.jetphotos.com/photo/11328359",
+                        "copyright": "Paul Denton",
+                        "source": "Jetphotos.com"
+                    }
+                ],
+                "medium": [
+                    {
+                        "src": "https://cdn.jetphotos.com/400/5/702259_1740367470.jpg?v=0",
+                        "link": "https://www.jetphotos.com/photo/11647209",
+                        "copyright": "Caden Henderson",
+                        "source": "Jetphotos.com"
+                    },
+                    {
+                        "src": "https://cdn.jetphotos.com/400/6/809364_1732667396.jpg?v=0",
+                        "link": "https://www.jetphotos.com/photo/11560623",
+                        "copyright": "Neil Misra",
+                        "source": "Jetphotos.com"
+                    },
+                    {
+                        "src": "https://cdn.jetphotos.com/400/5/2587191_1729621295.jpg?v=0",
+                        "link": "https://www.jetphotos.com/photo/11518035",
+                        "copyright": "Steven Ma",
+                        "source": "Jetphotos.com"
+                    },
+                    {
+                        "src": "https://cdn.jetphotos.com/400/6/1981984_1729470281.jpg?v=0",
+                        "link": "https://www.jetphotos.com/photo/11515766",
+                        "copyright": "Contrail",
+                        "source": "Jetphotos.com"
+                    },
+                    {
+                        "src": "https://cdn.jetphotos.com/400/5/1410345_1713987092.jpg?v=0",
+                        "link": "https://www.jetphotos.com/photo/11328359",
+                        "copyright": "Paul Denton",
+                        "source": "Jetphotos.com"
+                    }
+                ],
+                "large": [
+                    {
+                        "src": "https://cdn.jetphotos.com/640cb/5/702259_1740367470.jpg?v=0",
+                        "link": "https://www.jetphotos.com/photo/11647209",
+                        "copyright": "Caden Henderson",
+                        "source": "Jetphotos.com"
+                    },
+                    {
+                        "src": "https://cdn.jetphotos.com/640cb/6/809364_1732667396.jpg?v=0",
+                        "link": "https://www.jetphotos.com/photo/11560623",
+                        "copyright": "Neil Misra",
+                        "source": "Jetphotos.com"
+                    },
+                    {
+                        "src": "https://cdn.jetphotos.com/640cb/5/2587191_1729621295.jpg?v=0",
+                        "link": "https://www.jetphotos.com/photo/11518035",
+                        "copyright": "Steven Ma",
+                        "source": "Jetphotos.com"
+                    },
+                    {
+                        "src": "https://cdn.jetphotos.com/640cb/6/1981984_1729470281.jpg?v=0",
+                        "link": "https://www.jetphotos.com/photo/11515766",
+                        "copyright": "Contrail",
+                        "source": "Jetphotos.com"
+                    },
+                    {
+                        "src": "https://cdn.jetphotos.com/640cb/5/1410345_1713987092.jpg?v=0",
+                        "link": "https://www.jetphotos.com/photo/11328359",
+                        "copyright": "Paul Denton",
+                        "source": "Jetphotos.com"
+                    }
+                ]
+            }
+        },
+        {
+            "registration": "N908EV",
+            "images": {
+                "thumbnails": [
+                    {
+                        "src": "https://cdn.jetphotos.com/200/6/591732_1744590310_tb.jpg?v=0",
+                        "link": "https://www.jetphotos.com/photo/11678891",
+                        "copyright": "Xiamen Air 849 Heavy",
+                        "source": "Jetphotos.com"
+                    },
+                    {
+                        "src": "https://cdn.jetphotos.com/200/6/563275_1732906029_tb.jpg?v=0",
+                        "link": "https://www.jetphotos.com/photo/11563005",
+                        "copyright": "SpotterPowwwiii",
+                        "source": "Jetphotos.com"
+                    },
+                    {
+                        "src": "https://cdn.jetphotos.com/200/5/522856_1720096667_tb.jpg?v=0",
+                        "link": "https://www.jetphotos.com/photo/11400030",
+                        "copyright": "LanMing Ren",
+                        "source": "Jetphotos.com"
+                    },
+                    {
+                        "src": "https://cdn.jetphotos.com/200/5/350892_1693776331_tb.jpg?v=0",
+                        "link": "https://www.jetphotos.com/photo/11061927",
+                        "copyright": "Len Schwartz",
+                        "source": "Jetphotos.com"
+                    },
+                    {
+                        "src": "https://cdn.jetphotos.com/200/5/95674_1641496731_tb.jpg?v=0",
+                        "link": "https://www.jetphotos.com/photo/10443153",
+                        "copyright": "Ricky Teteris",
+                        "source": "Jetphotos.com"
+                    }
+                ],
+                "medium": [
+                    {
+                        "src": "https://cdn.jetphotos.com/400/6/591732_1744590310.jpg?v=0",
+                        "link": "https://www.jetphotos.com/photo/11678891",
+                        "copyright": "Xiamen Air 849 Heavy",
+                        "source": "Jetphotos.com"
+                    },
+                    {
+                        "src": "https://cdn.jetphotos.com/400/6/563275_1732906029.jpg?v=0",
+                        "link": "https://www.jetphotos.com/photo/11563005",
+                        "copyright": "SpotterPowwwiii",
+                        "source": "Jetphotos.com"
+                    },
+                    {
+                        "src": "https://cdn.jetphotos.com/400/5/522856_1720096667.jpg?v=0",
+                        "link": "https://www.jetphotos.com/photo/11400030",
+                        "copyright": "LanMing Ren",
+                        "source": "Jetphotos.com"
+                    },
+                    {
+                        "src": "https://cdn.jetphotos.com/400/5/350892_1693776331.jpg?v=0",
+                        "link": "https://www.jetphotos.com/photo/11061927",
+                        "copyright": "Len Schwartz",
+                        "source": "Jetphotos.com"
+                    },
+                    {
+                        "src": "https://cdn.jetphotos.com/400/5/95674_1641496731.jpg?v=0",
+                        "link": "https://www.jetphotos.com/photo/10443153",
+                        "copyright": "Ricky Teteris",
+                        "source": "Jetphotos.com"
+                    }
+                ],
+                "large": [
+                    {
+                        "src": "https://cdn.jetphotos.com/640cb/6/591732_1744590310.jpg?v=0",
+                        "link": "https://www.jetphotos.com/photo/11678891",
+                        "copyright": "Xiamen Air 849 Heavy",
+                        "source": "Jetphotos.com"
+                    },
+                    {
+                        "src": "https://cdn.jetphotos.com/640cb/6/563275_1732906029.jpg?v=0",
+                        "link": "https://www.jetphotos.com/photo/11563005",
+                        "copyright": "SpotterPowwwiii",
+                        "source": "Jetphotos.com"
+                    },
+                    {
+                        "src": "https://cdn.jetphotos.com/640cb/5/522856_1720096667.jpg?v=0",
+                        "link": "https://www.jetphotos.com/photo/11400030",
+                        "copyright": "LanMing Ren",
+                        "source": "Jetphotos.com"
+                    },
+                    {
+                        "src": "https://cdn.jetphotos.com/640cb/5/350892_1693776331.jpg?v=0",
+                        "link": "https://www.jetphotos.com/photo/11061927",
+                        "copyright": "Len Schwartz",
+                        "source": "Jetphotos.com"
+                    },
+                    {
+                        "src": "https://cdn.jetphotos.com/640cb/5/95674_1641496731.jpg?v=0",
+                        "link": "https://www.jetphotos.com/photo/10443153",
+                        "copyright": "Ricky Teteris",
+                        "source": "Jetphotos.com"
+                    }
+                ]
+            }
+        },
+        {
+            "registration": "N734KF",
+            "images": {
+                "thumbnails": [
+                    {
+                        "src": "https://cdn.jetphotos.com/200/5/511934_1738333784_tb.jpg?v=0",
+                        "link": "https://www.jetphotos.com/photo/11606682",
+                        "copyright": "Jeremy D. Dando",
+                        "source": "Jetphotos.com"
+                    }
+                ],
+                "medium": [
+                    {
+                        "src": "https://cdn.jetphotos.com/400/5/511934_1738333784.jpg?v=0",
+                        "link": "https://www.jetphotos.com/photo/11606682",
+                        "copyright": "Jeremy D. Dando",
+                        "source": "Jetphotos.com"
+                    }
+                ],
+                "large": [
+                    {
+                        "src": "https://cdn.jetphotos.com/640cb/5/511934_1738333784.jpg?v=0",
+                        "link": "https://www.jetphotos.com/photo/11606682",
+                        "copyright": "Jeremy D. Dando",
+                        "source": "Jetphotos.com"
+                    }
+                ]
+            }
+        },
+        {
+            "registration": "N929ST",
+            "images": {
+                "thumbnails": [
+                    {
+                        "src": "https://cdn.jetphotos.com/200/5/77557_1538403111_tb.jpg?v=0",
+                        "link": "https://www.jetphotos.com/photo/9081148",
+                        "copyright": "Alex Crail",
+                        "source": "Jetphotos.com"
+                    }
+                ],
+                "medium": [
+                    {
+                        "src": "https://cdn.jetphotos.com/400/5/77557_1538403111.jpg?v=0",
+                        "link": "https://www.jetphotos.com/photo/9081148",
+                        "copyright": "Alex Crail",
+                        "source": "Jetphotos.com"
+                    }
+                ],
+                "large": [
+                    {
+                        "src": "https://cdn.jetphotos.com/640cb/5/77557_1538403111.jpg?v=0",
+                        "link": "https://www.jetphotos.com/photo/9081148",
+                        "copyright": "Alex Crail",
+                        "source": "Jetphotos.com"
+                    }
+                ]
+            }
+        },
+        {
+            "registration": "N660ER",
+            "images": {
+                "thumbnails": [
+                    {
+                        "src": "https://cdn.jetphotos.com/200/5/895518_1716176888_tb.jpg?v=0",
+                        "link": "https://www.jetphotos.com/photo/11334842",
+                        "copyright": "Xiamen Air 849 Heavy",
+                        "source": "Jetphotos.com"
+                    }
+                ],
+                "medium": [
+                    {
+                        "src": "https://cdn.jetphotos.com/400/5/895518_1716176888.jpg?v=0",
+                        "link": "https://www.jetphotos.com/photo/11334842",
+                        "copyright": "Xiamen Air 849 Heavy",
+                        "source": "Jetphotos.com"
+                    }
+                ],
+                "large": [
+                    {
+                        "src": "https://cdn.jetphotos.com/640cb/5/895518_1716176888.jpg?v=0",
+                        "link": "https://www.jetphotos.com/photo/11334842",
+                        "copyright": "Xiamen Air 849 Heavy",
+                        "source": "Jetphotos.com"
+                    }
+                ]
+            }
+        },
+        {
+            "registration": "N8GF",
+            "images": {
+                "sideview": "http://www.flightradar24.com/static/images/sideviews/thumbnails/P180.jpg",
+                "thumbnails": [
+                    {
+                        "src": "http://www.flightradar24.com/static/images/sideviews/thumbnails/P180.jpg",
+                        "link": "",
+                        "copyright": "Flightradar24",
+                        "source": "Flightradar24"
+                    }
+                ]
+            }
+        },
+        {
+            "registration": "N249K",
+            "images": {
+                "thumbnails": [
+                    {
+                        "src": "https://cdn.jetphotos.com/200/6/77960_1669575774_tb.jpg?v=0",
+                        "link": "https://www.jetphotos.com/photo/10779827",
+                        "copyright": "Xiamen Air 849 Heavy",
+                        "source": "Jetphotos.com"
+                    },
+                    {
+                        "src": "https://cdn.jetphotos.com/200/5/856467_1691855666_tb.jpg?v=0",
+                        "link": "https://www.jetphotos.com/photo/11058592",
+                        "copyright": "Alexandre Fazan",
+                        "source": "Jetphotos.com"
+                    }
+                ],
+                "medium": [
+                    {
+                        "src": "https://cdn.jetphotos.com/400/6/77960_1669575774.jpg?v=0",
+                        "link": "https://www.jetphotos.com/photo/10779827",
+                        "copyright": "Xiamen Air 849 Heavy",
+                        "source": "Jetphotos.com"
+                    },
+                    {
+                        "src": "https://cdn.jetphotos.com/400/5/856467_1691855666.jpg?v=0",
+                        "link": "https://www.jetphotos.com/photo/11058592",
+                        "copyright": "Alexandre Fazan",
+                        "source": "Jetphotos.com"
+                    }
+                ],
+                "large": [
+                    {
+                        "src": "https://cdn.jetphotos.com/640cb/6/77960_1669575774.jpg?v=0",
+                        "link": "https://www.jetphotos.com/photo/10779827",
+                        "copyright": "Xiamen Air 849 Heavy",
+                        "source": "Jetphotos.com"
+                    },
+                    {
+                        "src": "https://cdn.jetphotos.com/640cb/5/856467_1691855666.jpg?v=0",
+                        "link": "https://www.jetphotos.com/photo/11058592",
+                        "copyright": "Alexandre Fazan",
+                        "source": "Jetphotos.com"
+                    }
+                ]
+            }
+        },
+        {
+            "registration": "N239K",
+            "images": {
+                "thumbnails": [
+                    {
+                        "src": "https://cdn.jetphotos.com/200/5/667926_1705887140_tb.jpg?v=0",
+                        "link": "https://www.jetphotos.com/photo/11218591",
+                        "copyright": "Xiamen Air 849 Heavy",
+                        "source": "Jetphotos.com"
+                    },
+                    {
+                        "src": "https://cdn.jetphotos.com/200/5/52959_1668637748_tb.jpg?v=0",
+                        "link": "https://www.jetphotos.com/photo/10770534",
+                        "copyright": "David Lee",
+                        "source": "Jetphotos.com"
+                    },
+                    {
+                        "src": "https://cdn.jetphotos.com/200/6/1055975_1692521404_tb.jpg?v=0",
+                        "link": "https://www.jetphotos.com/photo/11066259",
+                        "copyright": "Alexandre Fazan",
+                        "source": "Jetphotos.com"
+                    },
+                    {
+                        "src": "https://cdn.jetphotos.com/200/5/70270_1662613464_tb.jpg?v=0",
+                        "link": "https://www.jetphotos.com/photo/10697085",
+                        "copyright": "David Lee",
+                        "source": "Jetphotos.com"
+                    }
+                ],
+                "medium": [
+                    {
+                        "src": "https://cdn.jetphotos.com/400/5/667926_1705887140.jpg?v=0",
+                        "link": "https://www.jetphotos.com/photo/11218591",
+                        "copyright": "Xiamen Air 849 Heavy",
+                        "source": "Jetphotos.com"
+                    },
+                    {
+                        "src": "https://cdn.jetphotos.com/400/5/52959_1668637748.jpg?v=0",
+                        "link": "https://www.jetphotos.com/photo/10770534",
+                        "copyright": "David Lee",
+                        "source": "Jetphotos.com"
+                    },
+                    {
+                        "src": "https://cdn.jetphotos.com/400/6/1055975_1692521404.jpg?v=0",
+                        "link": "https://www.jetphotos.com/photo/11066259",
+                        "copyright": "Alexandre Fazan",
+                        "source": "Jetphotos.com"
+                    },
+                    {
+                        "src": "https://cdn.jetphotos.com/400/5/70270_1662613464.jpg?v=0",
+                        "link": "https://www.jetphotos.com/photo/10697085",
+                        "copyright": "David Lee",
+                        "source": "Jetphotos.com"
+                    }
+                ],
+                "large": [
+                    {
+                        "src": "https://cdn.jetphotos.com/640cb/5/667926_1705887140.jpg?v=0",
+                        "link": "https://www.jetphotos.com/photo/11218591",
+                        "copyright": "Xiamen Air 849 Heavy",
+                        "source": "Jetphotos.com"
+                    },
+                    {
+                        "src": "https://cdn.jetphotos.com/640cb/5/52959_1668637748.jpg?v=0",
+                        "link": "https://www.jetphotos.com/photo/10770534",
+                        "copyright": "David Lee",
+                        "source": "Jetphotos.com"
+                    },
+                    {
+                        "src": "https://cdn.jetphotos.com/640cb/6/1055975_1692521404.jpg?v=0",
+                        "link": "https://www.jetphotos.com/photo/11066259",
+                        "copyright": "Alexandre Fazan",
+                        "source": "Jetphotos.com"
+                    },
+                    {
+                        "src": "https://cdn.jetphotos.com/640cb/5/70270_1662613464.jpg?v=0",
+                        "link": "https://www.jetphotos.com/photo/10697085",
+                        "copyright": "David Lee",
+                        "source": "Jetphotos.com"
+                    }
+                ]
+            }
+        },
+        {
+            "registration": "N535ER",
+            "images": {
+                "thumbnails": [
+                    {
+                        "src": "https://cdn.jetphotos.com/200/5/736213_1730632627_tb.jpg?v=0",
+                        "link": "https://www.jetphotos.com/photo/11519949",
+                        "copyright": "Xiamen Air 849 Heavy",
+                        "source": "Jetphotos.com"
+                    }
+                ],
+                "medium": [
+                    {
+                        "src": "https://cdn.jetphotos.com/400/5/736213_1730632627.jpg?v=0",
+                        "link": "https://www.jetphotos.com/photo/11519949",
+                        "copyright": "Xiamen Air 849 Heavy",
+                        "source": "Jetphotos.com"
+                    }
+                ],
+                "large": [
+                    {
+                        "src": "https://cdn.jetphotos.com/640cb/5/736213_1730632627.jpg?v=0",
+                        "link": "https://www.jetphotos.com/photo/11519949",
+                        "copyright": "Xiamen Air 849 Heavy",
+                        "source": "Jetphotos.com"
+                    }
+                ]
+            }
+        },
+        {
+            "registration": "N653ER",
+            "images": {
+                "thumbnails": [
+                    {
+                        "src": "https://cdn.jetphotos.com/200/5/724813_1704597748_tb.jpg?v=0",
+                        "link": "https://www.jetphotos.com/photo/11200384",
+                        "copyright": "Xiamen Air 849 Heavy",
+                        "source": "Jetphotos.com"
+                    },
+                    {
+                        "src": "https://cdn.jetphotos.com/200/6/55949_1599696409_tb.jpg?v=0",
+                        "link": "https://www.jetphotos.com/photo/9843456",
+                        "copyright": "Eric Page Lu",
+                        "source": "Jetphotos.com"
+                    }
+                ],
+                "medium": [
+                    {
+                        "src": "https://cdn.jetphotos.com/400/5/724813_1704597748.jpg?v=0",
+                        "link": "https://www.jetphotos.com/photo/11200384",
+                        "copyright": "Xiamen Air 849 Heavy",
+                        "source": "Jetphotos.com"
+                    },
+                    {
+                        "src": "https://cdn.jetphotos.com/400/6/55949_1599696409.jpg?v=0",
+                        "link": "https://www.jetphotos.com/photo/9843456",
+                        "copyright": "Eric Page Lu",
+                        "source": "Jetphotos.com"
+                    }
+                ],
+                "large": [
+                    {
+                        "src": "https://cdn.jetphotos.com/640cb/5/724813_1704597748.jpg?v=0",
+                        "link": "https://www.jetphotos.com/photo/11200384",
+                        "copyright": "Xiamen Air 849 Heavy",
+                        "source": "Jetphotos.com"
+                    },
+                    {
+                        "src": "https://cdn.jetphotos.com/640cb/6/55949_1599696409.jpg?v=0",
+                        "link": "https://www.jetphotos.com/photo/9843456",
+                        "copyright": "Eric Page Lu",
+                        "source": "Jetphotos.com"
+                    }
+                ]
+            }
+        },
+        {
+            "registration": "N515AV",
+            "images": {
+                "thumbnails": [
+                    {
+                        "src": "https://cdn.jetphotos.com/200/5/951029_1701571207_tb.jpg?v=0",
+                        "link": "https://www.jetphotos.com/photo/11152463",
+                        "copyright": "jakerepp",
+                        "source": "Jetphotos.com"
+                    }
+                ],
+                "medium": [
+                    {
+                        "src": "https://cdn.jetphotos.com/400/5/951029_1701571207.jpg?v=0",
+                        "link": "https://www.jetphotos.com/photo/11152463",
+                        "copyright": "jakerepp",
+                        "source": "Jetphotos.com"
+                    }
+                ],
+                "large": [
+                    {
+                        "src": "https://cdn.jetphotos.com/640cb/5/951029_1701571207.jpg?v=0",
+                        "link": "https://www.jetphotos.com/photo/11152463",
+                        "copyright": "jakerepp",
+                        "source": "Jetphotos.com"
+                    }
+                ]
+            }
+        }
+    ]
+}

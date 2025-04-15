@@ -14,7 +14,7 @@ import pandas as pd
 from datetime import datetime, timedelta, timezone
 
 # JSON Data Path
-DATA_DIR = "./src/data"
+DATA_DIR = "./src/data_files"
 API_KEY = st.secrets["API_KEY"]
 BASE_URL = f"https://api.flightapi.io/schedule/{API_KEY}?mode=departures&iata=PRC&day="
 

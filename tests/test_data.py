@@ -9,7 +9,7 @@ from os.path import exists, join
 from os import remove
 from datetime import datetime, timezone
 
-DATA_DIR = "./src/data"
+DATA_DIR = "./src/data_files"
 API_KEY = "67e5a45ad107e1cb9de3c704"
 BASE_URL = f"https://api.flightapi.io/schedule/{API_KEY}?mode=departures&iata=PRC&day="
 
