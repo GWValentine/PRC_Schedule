@@ -1,0 +1,12 @@
+# Ignore environment and secret files
+#.streamlit/secrets.toml 
+.env
+
+# OS-specific
+.DS_Store
+
+# Python
+src/__pycache__/
+venv/
+.pytest_cache/
+*.pyc
