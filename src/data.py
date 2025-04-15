@@ -1,7 +1,7 @@
 """
 Generate JSON files from Flight API and load scheduling data
 Author: Grant Valentine
-AI Use: ChatGPT: Help with DataFrames, removing duplicate flights from schedule. 
+AI Use: ChatGPT: Help with DataFrames, removing duplicate flights from schedule.
     Help with datetime and JSON try/except errors
     Help with Github API Keys
 """
@@ -21,11 +21,12 @@ BASE_URL = f"https://api.flightapi.io/schedule/{API_KEY}?mode=departures&iata=PR
 # Verify data directory exists
 os.makedirs(DATA_DIR, exist_ok=True)
 
+
 @st.cache_data(show_spinner="Fetching data from API...", ttl=60 * 10)
-def load_data() ->  list:
+def load_data() -> list:
     """Load PRC departure data for today and the past 4 days, checking if the date's file exists first."""
     combined_departures = []
-    
+
     # API Days (1 is today, -1 is yesterday)
     API_days = [1, -1, -2, -3, -4]
 
@@ -59,7 +60,14 @@ def load_data() ->  list:
         df = pd.DataFrame(combined_departures)
 
         # Choose valid columns for filtering duplicates
-        valid_columns = [col for col in ["flight", "time", "destination", "icao", "iata", "scheduledTime"] if col in df.columns]
+        valid_columns = [
+            col for col in [
+                "flight",
+                "time",
+                "destination",
+                "icao",
+                "iata",
+                "scheduledTime"] if col in df.columns]
 
         if valid_columns:
             df = df.drop_duplicates(subset=valid_columns, keep="first")
@@ -82,6 +90,7 @@ def fetch_and_save_data(day: int, file_path: str) -> None:
         st.error(f"Failed to fetch data from API for {file_path}. HTTP {response.status_code}.\nError: {e}")
     except json.JSONDecodeError:
         st.error(f"Invalid JSON received from API for {file_path}.")
+
 
 def reload_data() -> None:
     """Clear the cached data, forcing a fresh load next request."""

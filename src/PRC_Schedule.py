@@ -18,12 +18,14 @@ st.set_page_config(
 # Define Arizona timezone (Prescott follows America/Phoenix)
 arizona_tz = pytz.timezone("America/Phoenix")
 
+
 def format_local_time(timestamp: int, utc: bool) -> str:
     "Function to convert UTC timestamp to a Date Format String, UTC or MST"
     local_time = datetime.fromtimestamp(timestamp, pytz.utc)  # Convert to UTC
     if not utc:
-        local_time = local_time.astimezone(arizona_tz) # If not UTC, convert to MST
+        local_time = local_time.astimezone(arizona_tz)  # If not UTC, convert to MST
     return local_time.strftime(f"%Y-%m-%d %I:%M:%S %p {local_time.tzname()}")  # Format output
+
 
 st.title("PRC Departure Schedule")
 utc_time = st.sidebar.toggle("Display time in UTC", value=False)
@@ -36,7 +38,7 @@ table_data = []
 for schedule in schedules:
 
     flight_info = schedule["flight"]
-    Scheduled = False # Determines which departure timestamp to get
+    Scheduled = False  # Determines which departure timestamp to get
 
     callsign = (
         flight_info.get("identification", {})
@@ -52,7 +54,7 @@ for schedule in schedules:
         .get("real", {})
         .get("departure", "Unknown")
     )
-    if  not departure_timestamp:
+    if not departure_timestamp:
         departure_timestamp = (
             flight_info.get("time", {})
             .get("scheduled", {})
@@ -83,7 +85,8 @@ for schedule in schedules:
     )
 
 # Sort the data by Raw Timestamp
-table_data = sorted(table_data, key=lambda x: x["Raw Timestamp"] if isinstance(x["Raw Timestamp"], (int, float)) else int(0), reverse = True)
+table_data = sorted(table_data, key=lambda x: x["Raw Timestamp"] if isinstance(
+    x["Raw Timestamp"], (int, float)) else int(0), reverse=True)
 
 # Remove "Raw Timestamp" before displaying
 for entry in table_data:
@@ -91,7 +94,11 @@ for entry in table_data:
 
 all_cols = list(table_data[0].keys())
 pre_cols = ["Callsign", "Departure Time"]
-columns = st.sidebar.multiselect("Select columns to be displayed:", all_cols, default=pre_cols, placeholder="Select Columns")
+columns = st.sidebar.multiselect(
+    "Select columns to be displayed:",
+    all_cols,
+    default=pre_cols,
+    placeholder="Select Columns")
 
 # Filter displayed columns
 custom = [{k: v for k, v in p.items() if k in columns} for p in table_data]

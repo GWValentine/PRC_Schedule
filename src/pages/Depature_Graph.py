@@ -1,4 +1,4 @@
-""" 
+"""
     Streamlit front-end display departures over multiple days
     Author: Grant Valentine
     AI Use: Counter and dataframe, pandas, datetime and pytz
@@ -20,12 +20,14 @@ st.set_page_config(
 # Define Arizona timezone (Prescott follows America/Phoenix)
 arizona_tz = pytz.timezone("America/Phoenix")
 
+
 def format_local_time(timestamp: int, utc: bool) -> str:
     "Function to convert UTC timestamp to a Date Format String, UTC or MST"
     local_time = datetime.fromtimestamp(timestamp, pytz.utc)  # Convert to UTC
     if not utc:
-        local_time = local_time.astimezone(arizona_tz) #If not UTC, convert to MST
+        local_time = local_time.astimezone(arizona_tz)  # If not UTC, convert to MST
     return local_time.strftime("%Y-%m-%d")  # Format output as date only
+
 
 st.title("PRC Departure Graph")
 utc_time = st.sidebar.toggle("Display time in UTC", value=False)
@@ -38,14 +40,14 @@ departure_dates = []
 
 for schedule in schedules:
     flight_info = schedule["flight"]
-    
+
     departure_timestamp = (
         flight_info.get("time", {})
         .get("real", {})
         .get("departure", "Unknown")
     )
 
-    if  not departure_timestamp:
+    if not departure_timestamp:
         departure_timestamp = (
             flight_info.get("time", {})
             .get("scheduled", {})

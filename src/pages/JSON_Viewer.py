@@ -1,4 +1,4 @@
-""" 
+"""
 Page to display a selected JSON file
 Author: Grant Valentine
 AI use: streamlit select box, user choosing file to display
@@ -32,7 +32,7 @@ if selected_file:
     try:
         with open(file_path, "r") as file:
             json_data = json.load(file)
-        
+
         # Display the raw JSON
         st.json(json_data, expanded=False)
 
