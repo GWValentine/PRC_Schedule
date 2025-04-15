@@ -1,9 +1,8 @@
 ## KPRC Schedule
 
-![Python Tests](https://github.com/your-username/PRC_Schedule/actions/workflows/python-test.yml/badge.svg)
-![Docker](https://github.com/your-username/PRC_Schedule/actions/workflows/docker-compose.yml/badge.svg)
-![License](https://img.shields.io/github/license/your-username/PRC_Schedule)
-
+![Python Tests](https://github.com/GWValentine/PRC_Schedule/actions/workflows/python-test.yml/badge.svg)
+![Docker Compose](https://github.com/GWValentine/PRC_Schedule/actions/workflows/docker-compose.yml/badge.svg)
+![License](https://img.shields.io/github/license/GWValentine/PRC_Schedule)
 
 Python [Streamlit](https://streamlit.io) app which fetches all flights on the schedule that day and the previous 4 days.
 
