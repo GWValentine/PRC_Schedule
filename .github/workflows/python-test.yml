@@ -49,6 +49,6 @@ jobs:
           autopep8 --exit-code --recursive --diff --aggressive --max-line-length 120 ./src
 
       - name: Test with pytest
-        run: pytest
         env:
           API_KEY: ${{ secrets.API_KEY }}
+        run: pytest

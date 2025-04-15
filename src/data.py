@@ -15,7 +15,10 @@ from datetime import datetime, timedelta, timezone
 
 # JSON Data Path
 DATA_DIR = "./src/data_files"
-API_KEY = st.secrets["API_KEY"]
+API_KEY = os.getenv("API_KEY")
+if API_KEY is None:
+    raise ValueError("API_KEY environment variable not found. Please set it in GitHub secrets.")
+
 BASE_URL = f"https://api.flightapi.io/schedule/{API_KEY}?mode=departures&iata=PRC&day="
 
 # Verify data directory exists
